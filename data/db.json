@@ -1,0 +1,138 @@
+[
+  {
+    "Number": 17,
+    "Project": "Publish or Perish!",
+    "Description": "Do you feel a sense of dread when you open Adobe Indesign or Microsoft Word? If so, Publish or Perish! is the Desktop Publishing tool that’s right for you. With its pressure cooking countdown, a series of sudden disruptions, and achievements to get, Publish or Perish! makes Desktop Publishing challenging like it was back in the days. Publish or Perish! will catapult you to a place where software meets the unexpected. \n \n Publish or Perish is the name for the research and creation project that Silvio Lorusso and Stef Kors, on behalf of the PublishingLab of Amsterdam, have developed for Foto Colectania. This commission has materialized in a free online digital content publishing web/app with the capacity to publish both images and texts.\n\n The work was presented in Barcelona during a Printing Party at Foto Colectania as part of the DONE3 festival.                  \n                 \n                  Built with Node.js, MongoDB, Fabric.js and Javascript",
+    "Collaborators": "Silvio Lorusso",
+    "Type": "Game",
+    "Date": 2018
+  },
+  {
+    "Number": 16,
+    "Project": "Biometric Interface",
+    "Description": "For Yun Ingrid Eel's performance On Illegibility I built an Biometric Interface which shows RACE, SEX and AGE of the person via facial recognition. With this work Yun Ingrid Eel performed at Sonic Acts Academy 2018 in Amsterdam.                  \n                 \n                  Built with the Affectiva API",
+    "Collaborators": "",
+    "Type": "Interface",
+    "Date": 2018
+  },
+  {
+    "Number": 15,
+    "Project": "artscienceforum.nl",
+    "Description": "ArtScience Forum (ASF) is a platform for open discussion and critical reflection on ArtScience practice(s) today. This website features five different types of articles which are all available directly from the homepage. Using the Kirby CMS makes it easy to add, remove and modify articles.                 \n                 \n                  Built with Kirby CMS and Sass",
+    "Collaborators": "",
+    "Type": "Website",
+    "Date": 2018
+  },
+  {
+    "Number": 14,
+    "Project": "joostkors.com",
+    "Description": "A personal site for Joost Kors. Based around his projects in the field of architecture. The site contains of a homepage, projectpage and archive.                 \n                 \n                  Built with HTML, CSS and Javascript, hosted on Github pages",
+    "Collaborators": "",
+    "Type": "Website",
+    "Date": 2018
+  },
+  {
+    "Number": 13,
+    "Project": "oneacre.online, Ingrid Eel's, Poetics and Politics of Erasure",
+    "Description": "Poetics and Politics of Erasure is a multidisciplinary essay on the aesthetics and politics of erasure. The framework for erasure is drawn from a critique of accelerationism, the video game Katamari Damacy, and internet aesthetics. It begins by investigating power relations in dominant archival practices, before tracing how memory storage technology (from the written word to the internet) reinforces hierarchical models of knowledge, and finally posing the generative potential of erasure in alternative models of knowing, doing, and being. It does so by locating strategies of erasure in audio, visual, and digital cultures in the forms of: erasure/forgetting, translation/mutation, and recontextualizing/remythologizing. oneacre.online had a small feature in the Sonic Acts Academy book.                  \n                 \n                  Built with EJS, CSS and Javascript and with Node.js, MongoDB and Mollie Payments on the sever",
+    "Collaborators": "Ingrid Eel, Victoria Douka-Doukopoulou and Titus Knegtel",
+    "Type": "Website",
+    "Date": 2017
+  },
+  {
+    "Number": 12,
+    "Project": "Textual and morphological observation of comments sections",
+    "Description": "This zine is a series that exist out of the four parts: Texts, Taxonomy, Specimens & Community Guidelines. Showing the information — fragmentarily and outside of their original contexts, throughout the four parts — enables us to highlight the individual.",
+    "Collaborators": "Mateo Broillet, Thijmen van Brunschot, Nina Fistal and Victoria Douka-Doukopoulou",
+    "Type": "Book",
+    "Date": 2017
+  },
+  {
+    "Number": 11,
+    "Project": "WPG Media",
+    "Description": "In a collaboration between the Hogeschool van Amsterdam's PublishingLab and WPG media our team is doing a project about storytelling, transmedia and the development of new ways of reading. We are working on how to maximize the reading experience and the attention accompanying a new book to appear.",
+    "Collaborators": "Thijmen van Brunschot",
+    "Type": "Website",
+    "Date": 2017
+  },
+  {
+    "Number": 10,
+    "Project": "flexicorn.com",
+    "Description": "Business development for Flexicorn Corp. Art project by Luke Boorman, exhibited at the graduation festival at The Royal Academy of Art, The Hague.",
+    "Collaborators": "Victoria Douka-Doukopoulou, Luke Boorman",
+    "Type": "Website",
+    "Date": 2017
+  },
+  {
+    "Number": 9,
+    "Project": "Where the money is made, transaction counter",
+    "Description": "For Eline Benjaminsen's work \"Where the money is made\" I made a single page website that illustrates the speed of hi-frequency trading transactions. Exhibited at the graduation festival at The Royal Academy of Art, The Hague and the Nederlands Fotografie Museum",
+    "Collaborators": "",
+    "Type": "Website",
+    "Date": 2017
+  },
+  {
+    "Number": 8,
+    "Project": "Bynder Onboarding User Experience",
+    "Description": "User research and User Experience Design for the onboarding process of Bynder Orbit. While developing this feature I interviewed a large number of clients..",
+    "Collaborators": "Bynder design team",
+    "Type": "User Experience Design",
+    "Date": 2017
+  },
+  {
+    "Number": 7,
+    "Project": "dkdkpl.com/algae",
+    "Description": "This site was built to showcase the story and emotions that occured during the research of Victoria Douka-Doukopoulou into Algae.",
+    "Collaborators": "Victoria Douka-Doukopoulou",
+    "Type": "Website",
+    "Date": 2017
+  },
+  {
+    "Number": 6,
+    "Project": "oneacre.online, part preface / part acknowledgements",
+    "Description": "oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilize the omnidirectional website space to seed works.",
+    "Collaborators": "Victoria Douka-Doukopoulou and Titus Knegtel",
+    "Type": "Website",
+    "Date": 2017
+  },
+  {
+    "Number": 5,
+    "Project": "SwiftPark",
+    "Description": "For ProRail we design the trainstation of the future. Co-Designing with the train commuters we developed SwiftPark, the easiest way to get from and to the trainstation.",
+    "Collaborators": "Guido Theelen, Joep van den Broeke, Yvonne Butselaar and Richard Tekel",
+    "Type": "Service Design",
+    "Date": 2016
+  },
+  {
+    "Number": 4,
+    "Project": "Reminiscence room",
+    "Description": "Project developed in with the support of Jeroen Arendsen from Sherpa. Reminiscing of familiar experiences can be used as active therapy for clients who are in the early stages of dementia. Especially with clients who have mental disabilities, where dementia could start as early as 40 years old. Our team designed a workflow to capture, edit and organise the experiences in a way where the patients of Sherpa are involved in most of the steps.",
+    "Collaborators": "Eoin O Mahony, Floor Rooijakkers, Janis Seldenthuis and Kendra Penniston",
+    "Type": "Service Design",
+    "Date": 2016
+  },
+  {
+    "Number": 3,
+    "Project": "Notes/Research App",
+    "Description": "In the spring of 2016 I was asked to design an application that could help students and designers keep track of their research and progress. Through design research I was able to determine that most students, artists and designers are using software that isn’t optimised for their way of working. For them I designed a digital notebook to collect and expand their research",
+    "Collaborators": "Victoria Douka-Doukopoulou",
+    "Type": "App Design",
+    "Date": 2016
+  },
+  {
+    "Number": 2,
+    "Project": "Hartstichting.nl",
+    "Description": "As a design intern at Mangrove I worked closely with designer, Ivar van den Broek on Hartstichting.nl. Mangrove and the Dutch Hart Foundation have been working together for a number of years. During this project I was responsible for designing the website, interpreting user-research feedback and iterating the design.",
+    "Collaborators": "Ivar van den Broek",
+    "Type": "Website",
+    "Date": 2016
+  },
+  {
+    "Number": 1,
+    "Project": "SyntaxCheck Safari-plugin",
+    "Description": "Safari Extension for Syntax Checking on MDN, currently a MVP. This extension makes it easy to search Mozilla Developer Network. Just click the icon and search.",
+    "Collaborators": "",
+    "Type": "Safari Extension",
+    "Date": 2016
+  }
+]
