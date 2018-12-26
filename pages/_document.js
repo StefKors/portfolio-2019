@@ -14,7 +14,9 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <style>{`body { margin: 0 } /* custom! */`}</style>
+          <style>{`
+          body { margin: 0; font-size: 14px;} /* custom! */
+          `}</style>
         </Head>
         <body>
           <Main />

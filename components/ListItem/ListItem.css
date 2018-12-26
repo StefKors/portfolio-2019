@@ -1,0 +1,40 @@
+.project {
+  position: relative;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.title {
+  position: absolute;
+  top: -140px;
+  z-index: 2;
+  font-size: 25rem;
+  display: block;
+  white-space: nowrap;
+}
+
+.wrapper {
+  margin: 100px auto;
+  max-width: 800px;
+}
+
+.text {
+  margin: 0 60px;
+  line-height: 1.3rem;
+  display: none;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  border: 1px solid white;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+}
