@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <style>{`
-          body { margin: 0; font-size: 14px;} /* custom! */
+          body { margin: 0; font-size: 14px; } *, *:before, *:after {box-sizing: border-box;} /* custom! */
           `}</style>
         </Head>
         <body>

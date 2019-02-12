@@ -1,0 +1,7 @@
+.wrapper {
+    max-width: 50%;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+}

@@ -1,23 +1,19 @@
 .project {
   position: relative;
-  width: 100%;
   color: white;
   overflow: hidden;
-  font-family: Arial;
+  border: 1px solid;
+  padding: 30px;
+  width: 100%;
+  height: calc(100vh - 64px);
 }
 
 .title {
   position: absolute;
-  top: -140px;
   z-index: 2;
-  font-size: 25rem;
+  font-size: 3rem;
   display: block;
-  white-space: nowrap;
-}
-
-.wrapper {
-  margin: 100px auto;
-  max-width: 800px;
+  bottom: 0;
 }
 
 .text {
@@ -26,15 +22,25 @@
   display: none;
 }
 
-.card {
-  position: relative;
-  z-index: 1;
-  border: 1px solid white;
-  padding: 30px;
-  margin: 30px;
-  border-radius: 4px;
+.image {
+  position: absolute;
+  width: 100%;
+  left: 130px;
+  top: 170px;
+  transition-duration: 200ms;
 }
 
-img {
-  width: 100%;
+.project:hover .image {
+  left: 80px;
+  top: 120px;
+  transition-duration: 200ms;
+}
+
+.basket {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.basket.hide {
+  opacity: 0;
+  pointer-events:none;
 }

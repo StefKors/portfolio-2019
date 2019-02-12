@@ -1,0 +1,13 @@
+.page {
+  font-family: Arial;
+  background-color: #08151d;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
