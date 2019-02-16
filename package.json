@@ -10,10 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@popmotion/easing": "1.0.1",
     "@zeit/next-css": "^1.0.1",
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-spring": "^7.2.3"
+    "next": "latest",
+    "next-page-transitions": "1.0.0-alpha.6",
+    "react": "16.8.2",
+    "react-bootstrap": "1.0.0-beta.5",
+    "react-dom": "16.8.2",
+    "react-pose": "4.0.7",
+    "react-pose-text": "3.1.0",
+    "react-spring": "7.2.11",
+    "react-transition-group": "1.2.1"
   }
 }

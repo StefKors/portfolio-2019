@@ -1,5 +1,14 @@
 [
   {
+    "Number": 18,
+    "Project": "Brabant Innovation Day",
+    "Description": "For the provice of Brabant we designed and developed an event site for the Brabant Innovation Day. An international event to promote Brabant technology and companies around the world.",
+    "Collaborators": "Jeffrey Grin",
+    "Tech": "Drupal 8",
+    "Type": "Website",
+    "Date": 2019
+  },
+  {
     "Number": 17,
     "Project": "Publish or Perish!",
     "Description": "Do you feel a sense of dread when you open Adobe Indesign or Microsoft Word? If so, Publish or Perish! is the Desktop Publishing tool that’s right for you. With its pressure cooking countdown, a series of sudden disruptions, and achievements to get, Publish or Perish! makes Desktop Publishing challenging like it was back in the days. Publish or Perish! will catapult you to a place where software meets the unexpected. \n \n Publish or Perish is the name for the research and creation project that Silvio Lorusso and Stef Kors, on behalf of the PublishingLab of Amsterdam, have developed for Foto Colectania. This commission has materialized in a free online digital content publishing web/app with the capacity to publish both images and texts.\n\n The work was presented in Barcelona during a Printing Party at Foto Colectania as part of the DONE3 festival.                  \n                 \n                  Built with Node.js, MongoDB, Fabric.js and Javascript",

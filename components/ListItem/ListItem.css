@@ -1,4 +1,4 @@
-.project {
+.slide {
   position: relative;
   color: white;
   overflow: hidden;
@@ -14,12 +14,14 @@
   font-size: 3rem;
   display: block;
   bottom: 0;
+  left: 0;
+  margin: 1rem 30px;
 }
 
-.text {
-  margin: 0 60px;
-  line-height: 1.3rem;
-  display: none;
+.description {
+  line-height: 2rem;
+  font-size: 1.7rem;
+  max-width: 60%;
 }
 
 .image {
@@ -36,11 +38,4 @@
   transition-duration: 200ms;
 }
 
-.basket {
-  transition: opacity 0.5s;
-  opacity: 1;
-}
-.basket.hide {
-  opacity: 0;
-  pointer-events:none;
-}
+/* animation: fade-in 1s ease .95s forwards,slide-up 1s cubic-bezier(.165,.84,.44,1) .95s; */
