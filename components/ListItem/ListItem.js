@@ -33,40 +33,39 @@ const Slide = posed.div({
   hoverable: true,
   init: {
     scale: 1,
-    opacity: 0,
   },
   hover: {
-    scale: 0.99
+    scale: 0.8
   }
 });
 
 const Title = posed.div({
   enter: {
-    y: 0,
+    x: 0,
     opacity: 1,
     delay: 900,
     transition: {
-      duration: 200,
+      duration: 1500,
       ease: [0.785, 0.135, 0.15, 0.86]
     }
   },
   exit: {
-    y: 10,
+    x: 100,
     opacity: 0,
     transition: {
-      duration: 200,
+      duration: 1500,
       ease: [0.785, 0.135, 0.15, 0.86]
     }
   }
 });
 
-const Description = posed.div({
+const Eyebrow = posed.div({
   enter: {
     y: 0,
     opacity: 1,
     delay: 900,
     transition: {
-      duration: 200,
+      duration: 1500,
       ease: [0.785, 0.135, 0.15, 0.86]
     }
   },
@@ -74,7 +73,7 @@ const Description = posed.div({
     y: 10,
     opacity: 0,
     transition: {
-      duration: 200,
+      duration: 1500,
       ease: [0.785, 0.135, 0.15, 0.86]
     }
   }
@@ -83,20 +82,14 @@ const Description = posed.div({
 const ListItem = (props, index, slide) => (
   <React.Fragment>
     <PoseGroup>
-      {props.slide === props.index + 1 && (
+      {props.slide === props.index + 1 && !props.expand && (
         <Slide key={props.index} className={styles.slide}>
-          <h4 className={styles.eyebrow}>
+          <Eyebrow className={styles.eyebrow}>
             {props.data.Type} completed in {props.data.Date}
-          </h4>
+          </Eyebrow>
           <Title className={styles.title}>
             {props.expand} {props.data.Project}
           </Title>
-
-            {props.expand && (
-              <Description className={styles.description}>
-                {props.data.Description}
-              </Description>
-            )}
         </Slide>
       )}
     </PoseGroup>

@@ -13,9 +13,8 @@
   z-index: 2;
   font-size: 3rem;
   display: block;
-  bottom: 0;
-  left: 0;
-  margin: 1rem 30px;
+  bottom: 30px;
+  left: 30px;
 }
 
 .description {
@@ -39,3 +38,18 @@
 }
 
 /* animation: fade-in 1s ease .95s forwards,slide-up 1s cubic-bezier(.165,.84,.44,1) .95s; */
+
+
+.slide_small {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  border: 1px solid;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.slide_small .title {
+  position: relative;
+}
