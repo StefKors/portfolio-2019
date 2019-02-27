@@ -1,13 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 .page {
-  font-family: 'Raisonne AN';
-  background-color: #08151d;
+  font-family: "Overpass", sans-serif;
+  background-color: #f4f2f2;
+  background-color: #15241a;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
 }
 
+html {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.page_wrapper {
+  display: grid;
+  grid-template-columns: 5% 47.5% 47.5%;
 }

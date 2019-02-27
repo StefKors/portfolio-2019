@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export"
   },
   "keywords": [],
   "author": "",

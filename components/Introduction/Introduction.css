@@ -1,7 +1,19 @@
 .wrapper {
-    max-width: 50%;
-    font-size: 16px;
-    line-height: 28px;
-    margin: 0 auto;
-    text-rendering: optimizeLegibility;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #f4f2f2;
+  color: #15241A;
+}
+
+.content {
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+.wrapper a {
+  border-bottom: 1px solid;
 }
