@@ -2,12 +2,10 @@
   position: relative;
   overflow: hidden;
   border-top: 1px solid;
-  width: calc(100% - 40px);
+  width: calc(100%);
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 15em;
-  /* margin: 0 20px 200px 20px; */
-  padding: 1rem 0;
+  padding: 1rem 0 3rem;
   transition: background 200ms;
   background-color: #ffffff00;
 

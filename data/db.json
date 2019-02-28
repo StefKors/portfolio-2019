@@ -5,7 +5,7 @@
     "Project": "atlas",
     "Description": "For the provice of Brabant we designed and developed an event site for the Brabant Innovation Day. An international event to promote Brabant technology and companies around the world.",
     "Collaborators": "Jonathan",
-    "Tech": "Drupal 8, Javascript",
+    "Tech": "Drupal 8, Javascript, Sass",
     "Type": "Website",
     "Images": 10,
     "Date": 2019
@@ -16,7 +16,7 @@
     "Project": "Brabant Innovation Day",
     "Description": "For the provice of Brabant we designed and developed an event site for the Brabant Innovation Day. An international event to promote Brabant technology and companies around the world.",
     "Collaborators": "Jeffrey Grin",
-    "Tech": "Drupal 8, Javascript",
+    "Tech": "Drupal 8, Javascript, Sass",
     "Type": "Website",
     "Date": 2019
   },
@@ -27,7 +27,7 @@
     "Description": "Personal site for Theater technician Floris Vermist. Featuring projects, tags, highlights and imagegalleries.",
     "Collaborators": "",
     "Type": "Website",
-    "Tech": "Kirby CMS",
+    "Tech": "Kirby CMS, Sass",
     "Date": 2018
   },
   {
@@ -46,7 +46,7 @@
     "Project": "Radio, Techno, Fossil",
     "Description": "The publication tunes into our highly textured and complex radio environment by subjecting itself to the unpredictability, seasonality, solar circles of the ionosphere and the current location of the reader. The publication embeds itself by using real time ionospheric measurements to determine how much publication and how much environment arrives.",
     "Collaborators": "Sophie Dyer, Eline Benjaminsen, Victoria Douka-Doukopoulou and Titus Knegtel",
-    "Tech": "EJS, Node.js, MongoDB Mollie Payments",
+    "Tech": "EJS, Node.js, MongoDB Mollie Payments, Weather API, Mobile Gyroscope API",
     "Type": "Website",
     "Date": 2018
   },
