@@ -20,6 +20,11 @@ class Index extends React.Component {
   handleClick = (value) => {
     console.log('img', value);
     this.setState({
+      folder: null
+    });
+
+
+    this.setState({
       folder: value
     });
   }

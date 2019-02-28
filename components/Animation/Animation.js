@@ -1,33 +1,6 @@
 import styles from "./Animation.css";
 import posed, { PoseGroup } from "react-pose";
 
-// const Image = posed.img({
-//   closed: {
-//     x: 0,
-//     opacity: 0,
-//     delay: 600,
-//     transition: {
-//       duration: 500,
-//       ease: [0.785, 0.135, 0.15, 0.86]
-//     }
-//   },
-//   open: {
-//     x: 0,
-//     opacity: 1,
-//     delayChildren: 200,
-//     staggerChildren: 50,
-//     transition: {
-//       duration: 500,
-//       ease: [0.785, 0.135, 0.15, 0.86]
-//     }
-//   }
-// });
-
-const Wrapper = posed.div({
-  open: { x: "0%" },
-  closed: { x: "-100%" }
-});
-
 class Animation extends React.Component {
   constructor(props) {
     super(props);
@@ -52,46 +25,61 @@ class Animation extends React.Component {
   }
 
   random(min, max) {
-    return Math.floor(Math.random() * max) + min;
+    let r = Math.floor(Math.random() * max) + min;
+    return r
+  }
+
+  loaded(i) {
+    this.setState({ show: true })
   }
 
   render() {
-    let images;
+    if (this.props.imageFolder) {
+      return (
 
-    const { isOpen } = this.state;
-
-    if (this.props.imageFolder != undefined) {
-      images = [...Array(this.props.imageFolder.Images)].map((e, i) => {
-        const imgStyle = {
-          left: this.random(5, 70) + "vw",
-          top: this.random(5, 70) + "vh",
-          position: "absolute"
-        };
-
-        const staggerDuration = 200;
-
-        return (
-          <img
-            src={`/static/${this.props.imageFolder.Number}/${i + 1}.jpg`}
-            alt={this.props.imageFolder.Project}
-            key={i}
-            style={imgStyle}
-          />
-        );
-      });
+          <div className={styles.afbeelding_wrapper}>
+            {[...Array(this.props.imageFolder.Images)].map((e, i) => (
+              <Img src={`/static/${this.props.imageFolder.Number}/${i + 1}.jpg`}/>
+            ))}
+          </div>
+      );
+    } else {
+      return null
     }
+  }
+}
 
 
 
-    
+
+
+class Img extends React.Component {
+  state = { loaded: false };
+
+  onLoad = () => {
+    this.setState({ loaded: true });
+    console.log("Loaded!");
+  };
+
+  random(min, max) {
+    let r = Math.floor(Math.random() * max) + min;
+    return r
+  }
+
+  render() {
+    const { loaded } = this.state;
+
     return (
-      <React.Fragment>
-        <div className={styles.afbeelding_wrapper}>
-          <PoseGroup>{images}</PoseGroup>
-        </div>
-      </React.Fragment>
+
+          <img
+            className={(loaded ? styles.loaded : "")}
+            src={this.props.src}
+            onLoad={this.onLoad}
+            style={{right: this.random(0, 40) + "vw", top: this.random(0, 80) + "vh"}}
+          />
     );
   }
 }
+
 
 export default Animation;

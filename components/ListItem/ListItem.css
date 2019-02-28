@@ -8,7 +8,7 @@
   padding: 1rem 0 3rem;
   transition: background 200ms;
   background-color: #ffffff00;
-
+  cursor: pointer;
 }
 
 .slide:hover {

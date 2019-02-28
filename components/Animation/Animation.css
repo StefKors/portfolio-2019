@@ -1,5 +1,19 @@
 img {
   width: 300px;
+  position: absolute;
+  pointer-events: all;
+  opacity: 0;
+  transition: opacity 300ms;
+  z-index: 1;
+}
+
+img:hover {
+  z-index: 999;
+}
+
+.loaded {
+  opacity: 1;
+  transition: opacity 300ms;
 }
 
 .afbeelding_wrapper {
