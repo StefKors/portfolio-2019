@@ -7,7 +7,8 @@
     "dev": "next",
     "start": "next start -p 8000",
     "build": "next build",
-    "export": "next export"
+    "export": "next export",
+    "now-build": "next build && next export -o dist"
   },
   "keywords": [],
   "author": "",
