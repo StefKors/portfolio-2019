@@ -1,0 +1,26 @@
+img {
+  width: 300px;
+  position: absolute;
+  pointer-events: all;
+  opacity: 0;
+  transition: opacity 300ms;
+  z-index: 1;
+}
+
+img:hover {
+  z-index: 999;
+}
+
+.loaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.afbeelding_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}

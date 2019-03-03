@@ -1,0 +1,21 @@
+
+.vertical {
+  writing-mode: vertical-rl;
+  /* border-right: 1px solid; */
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.vertical a {
+  padding: 10px 0;
+  opacity: .5;
+  transition: 200ms; 
+}
+
+.vertical a:hover {
+  transition: 200ms; 
+  opacity: 1;
+}

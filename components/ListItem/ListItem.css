@@ -1,55 +1,76 @@
 .slide {
   position: relative;
-  color: white;
   overflow: hidden;
-  border: 1px solid;
-  padding: 30px;
-  width: 100%;
-  height: calc(100vh - 64px);
+  border-top: 1px solid;
+  width: calc(100%);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 1rem 0 3rem;
+  transition: background 200ms;
+  background-color: #ffffff00;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+}
+
+.slide:hover {
+  background-color: #ffffff03;
+  transition: background 200ms;
 }
 
 .title {
-  position: absolute;
   z-index: 2;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
   display: block;
-  bottom: 30px;
-  left: 30px;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+
+.date {
+  display: inline;
+  margin-right: .5rem;
+}
+
+.url {
+  display: inline;
+  font-size: 1rem;
+  line-height: 2.1rem;
+  display: block;
+}
+
+.url span {
+  opacity: .5;
+}
+
+.url a {
+  opacity: .5;
+  transition: opacity cubic-bezier(.165,.84,.44,1) .95s;
+}
+
+.url a:hover {
+  opacity: 1;
+  transition: opacity cubic-bezier(.165,.84,.44,1) .95s;
+}
+
+.types {
+  text-align: right;
+  opacity: .5;
 }
 
 .description {
-  line-height: 2rem;
-  font-size: 1.7rem;
-  max-width: 60%;
+  font-size: 16px;
+  line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+  font-weight: 200;
+  grid-column-end: span 2;
 }
 
-.image {
-  position: absolute;
-  width: 100%;
-  left: 130px;
-  top: 170px;
-  transition-duration: 200ms;
-}
-
-.project:hover .image {
-  left: 80px;
-  top: 120px;
-  transition-duration: 200ms;
+.slide:hover .description {
+  display: block;
 }
 
 /* animation: fade-in 1s ease .95s forwards,slide-up 1s cubic-bezier(.165,.84,.44,1) .95s; */
-
-
-.slide_small {
-  position: relative;
-  color: white;
-  overflow: hidden;
-  border: 1px solid;
-  padding: 30px;
-  width: 100%;
-  height: auto;
-}
-
-.slide_small .title {
-  position: relative;
-}

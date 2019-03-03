@@ -4,8 +4,6 @@ import ListItem from "../ListItem/ListItem";
 import { Spring } from "react-spring";
 import posed, { PoseGroup } from "react-pose";
 
-
-
 const SlideCounter = posed.div({
   enter: {
     y: 0,
@@ -17,7 +15,7 @@ const SlideCounter = posed.div({
     }
   },
   exit: {
-    y: -10,
+    y: 0,
     opacity: 0,
     transition: {
       duration: 700,
@@ -26,79 +24,49 @@ const SlideCounter = posed.div({
   }
 });
 
+const ListWrapper = posed.div({
+  loaded: { x: '0%', staggerChildren: 50 },
+  load: { x: '0%' }
+})
+
+const ListItemWrapper = posed.div({
+  loaded: { opacity: 1 },
+  load: { opacity: 0 }
+})
+
+
+
 class List extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      date: new Date(),
-      slide: 1,
-      expand: false,
+
     };
   }
 
   componentDidMount() {}
 
-  next = () => {
-    if (this.state.slide >= data.length) {
-      var newSlide = 1;
-    } else {
-      var newSlide = this.state.slide + 1;
-    }
-
-    this.setState({
-      slide: newSlide
-    });
-  };
-
-  previous = () => {
-    if (this.state.slide <= 1) {
-      var newSlide = data.length;
-    } else {
-      var newSlide = this.state.slide - 1;
-    }
-
-    this.setState({
-      slide: newSlide
-    });
-  };
-
-  openProject = () => {
-    // toggle state
-    this.setState(prevState => ({
-      expand: !prevState.expand
-    }));
-  };
+  handleClick = (value) => {
+    this.props.onitemClick(value); 
+  }
 
   render() {
     return (
       <div className={styles.wrapper}>
-
-        {data.map((post, index) => (
-          <ListItem
-            data={post}
-            index={index}
-            slide={this.state.slide}
-            expand={this.state.expand}
-            key={index}
-            isOpen={"open"}
-          />
-        ))}
-
-        <div className={styles.left} onClick={this.previous} />
-        <div className={styles.center} onClick={this.openProject}/>
-        <div className={styles.right} onClick={this.next}/>
-
-        <span className={styles.slide}>
-        <PoseGroup>
-          <SlideCounter className={styles.SlideCounter} key={this.state.slide}>
-            {this.state.slide} 
-          </SlideCounter>
-          </PoseGroup>
-          /
-          <Spring from={{ n: 0 }} to={{ n: data.length }} delay="1000">
-            {props => props.n.toFixed()}
-          </Spring>
-        </span>
+        <ListWrapper className={styles.projectList} initialPose="load" pose="loaded">
+          {data.map((post, index) => (
+            <ListItemWrapper key={index}>
+              <ListItem
+                data={post}
+                index={index}
+                key={index}
+                isOpen={"open"}
+                className={styles.item}
+                onitemClick={this.handleClick}
+              />
+            </ListItemWrapper>
+          ))}
+        </ListWrapper>
       </div>
     );
   }
