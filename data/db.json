@@ -1,15 +1,4 @@
 [
-  // {
-  //   "Number": 23,
-  //   "Url": "",
-  //   "Project": "atlas",
-  //   "Description": "For the provice of Brabant we designed and developed an event site for the Brabant Innovation Day. An international event to promote Brabant technology and companies around the world.",
-  //   "Collaborators": "Jonathan",
-  //   "Tech": "Drupal 8, Javascript, Sass",
-  //   "Type": "Website",
-  //   "Images": 10,
-  //   "Date": 2019
-  // },
   {
     "Number": 22,
     "Url": "https://www.brabantinnovationday.com",
@@ -29,6 +18,7 @@
     "Collaborators": "",
     "Type": "Website",
     "Tech": "Kirby CMS, Sass",
+    "Images": 8,
     "Date": 2018
   },
   {
@@ -39,6 +29,7 @@
     "Collaborators": "Lisa van Casand, Victoria Douka-Doukopoulou and Titus Knegtel",
     "Tech": "EJS, Node.js, MongoDB Mollie Payments",
     "Type": "Website",
+    "Images": 16,
     "Date": 2018
   },
   {
@@ -49,16 +40,18 @@
     "Collaborators": "Sophie Dyer, Eline Benjaminsen, Victoria Douka-Doukopoulou and Titus Knegtel",
     "Tech": "EJS, Node.js, MongoDB Mollie Payments, Weather API, Mobile Gyroscope API",
     "Type": "Website",
+    "Images": 11,
     "Date": 2018
   },
   {
     "Number": 18,
-    "Url": "https://www.publishorperish.com",
+    "Url": "https://www.publishorperish.pro",
     "Project": "Publish or Perish!",
     "Description": "Do you feel a sense of dread when you open Adobe Indesign or Microsoft Word? If so, Publish or Perish! is the Desktop Publishing tool that’s right for you. With its pressure cooking countdown, a series of sudden disruptions, and achievements to get, Publish or Perish! makes Desktop Publishing challenging like it was back in the days. Publish or Perish! will catapult you to a place where software meets the unexpected. \n \n Publish or Perish is the name for the research and creation project that Silvio Lorusso and Stef Kors, on behalf of the PublishingLab of Amsterdam, have developed for Foto Colectania. This commission has materialized in a free online digital content publishing web/app with the capacity to publish both images and texts.\n\n The work was presented in Barcelona during a Printing Party at Foto Colectania as part of the DONE3 festival.",
     "Collaborators": "Silvio Lorusso",
     "Tech": " Node.js, MongoDB, Fabric.js",
     "Type": "Game",
+    "Images": 9,
     "Date": 2018
   },
   {
@@ -69,6 +62,7 @@
     "Collaborators": "Karina Zavidova, Victoria Douka-Doukopoulou and Titus Knegtel",
     "Tech": "EJS, Node.js, MongoDB Mollie Payments",
     "Type": "Website",
+    "Images": 16,
     "Date": 2018
   },
   {
@@ -78,16 +72,18 @@
     "Collaborators": "",
     "Type": "Interface",
     "Tech": "Canvas, Affectiva API",
+    "Images": 3,
     "Date": 2018
   },
   {
     "Number": 15,
-    "Url": "https://www.artscienceforum.nl",
+    "Url": "http://www.artscienceforum.nl",
     "Project": "artscienceforum.nl",
     "Description": "ArtScience Forum (ASF) is a platform for open discussion and critical reflection on ArtScience practice(s) today. This website features five different types of articles which are all available directly from the homepage. Using the Kirby CMS makes it easy to add, remove and modify articles.",
     "Collaborators": "",
     "Type": "Website",
     "Tech": "Kirby CMS",
+    "Images": 9,
     "Date": 2018
   },
   {
@@ -98,6 +94,7 @@
     "Collaborators": "",
     "Tech": "HTML, CSS, Javascript",
     "Type": "Website",
+    "Images": 7,
     "Date": 2018
   },
   {
@@ -108,6 +105,7 @@
     "Collaborators": "Ingrid Eel, Victoria Douka-Doukopoulou and Titus Knegtel",
     "Tech": "EJS, Node.js, MongoDB Mollie Payments",
     "Type": "Website",
+    "Images": 17,
     "Date": 2017
   },
   {
@@ -136,6 +134,7 @@
     "Collaborators": "Victoria Douka-Doukopoulou, Luke Boorman",
     "Type": "Website",
     "Tech": "HTML, CSS, Javascript",
+    "Images": 21,
     "Date": 2017
   },
   {
@@ -145,7 +144,9 @@
     "Collaborators": "",
     "Type": "Website",
     "Tech": "HTML, CSS, Javascript",
+    "Images": 2,
     "Date": 2017
+
   },
   {
     "Number": 8,
@@ -158,21 +159,24 @@
   },
   {
     "Number": 7,
+    "Url": "http://www.dkdkpl.com/og_site/index.html",
     "Project": "dkdkpl.com/algae",
     "Description": "This site was built to showcase the story and emotions that occured during the research of Victoria Douka-Doukopoulou into Algae.",
     "Collaborators": "Victoria Douka-Doukopoulou",
     "Type": "Website",
     "Tech": "HTML, CSS, Javascript",
+    "Images": 17,
     "Date": 2017
   },
   {
     "Number": 6,
-    "Url": "https://www.oneacre.online/annoucement",
+    "Url": "https://www.oneacre.online/announcement",
     "Project": "part preface / part acknowledgements",
     "Description": "oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilize the omnidirectional website space to seed works.",
     "Collaborators": "Victoria Douka-Doukopoulou and Titus Knegtel",
     "Type": "Website",
     "Tech": "EJS, Node.js, MongoDB Mollie Payments",
+    "Images": 3,
     "Date": 2017
   },
   {
@@ -200,6 +204,7 @@
     "Collaborators": "Victoria Douka-Doukopoulou",
     "Type": "App Design",
     "Tech": "Service Design, Sketching, User-Research",
+    "Images": 5,
     "Date": 2016
   },
   {
@@ -210,6 +215,7 @@
     "Collaborators": "Ivar van den Broek",
     "Type": "Website",
     "Tech": "Sketch, Invision",
+    "Images": 4,
     "Date": 2016
   },
   {

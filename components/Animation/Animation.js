@@ -39,7 +39,7 @@ class Animation extends React.Component {
 
           <div className={styles.afbeelding_wrapper}>
             {[...Array(this.props.imageFolder.Images)].map((e, i) => (
-              <Img src={`/static/${this.props.imageFolder.Number}/${i + 1}.jpg`}/>
+              <Img src={`/static/${this.props.imageFolder.Number}/img_${i + 1}.png`} key={i}/>
             ))}
           </div>
       );
@@ -75,6 +75,7 @@ class Img extends React.Component {
             className={(loaded ? styles.loaded : "")}
             src={this.props.src}
             onLoad={this.onLoad}
+            key={this.key}
             style={{right: this.random(0, 40) + "vw", top: this.random(0, 80) + "vh"}}
           />
     );
