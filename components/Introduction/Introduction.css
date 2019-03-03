@@ -17,3 +17,10 @@
 .wrapper a {
   border-bottom: 1px solid;
 }
+
+em {
+  font-style: normal;
+  padding: 6px 3px 3px 3px;
+  border-radius: 30px;
+  border: 1px solid;
+}

@@ -9,6 +9,9 @@
   transition: background 200ms;
   background-color: #ffffff00;
   cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
 }
 
 .slide:hover {
@@ -35,12 +38,39 @@
   font-size: 1rem;
   line-height: 2.1rem;
   display: block;
+}
+
+.url span {
   opacity: .5;
+}
+
+.url a {
+  opacity: .5;
+  transition: opacity cubic-bezier(.165,.84,.44,1) .95s;
+}
+
+.url a:hover {
+  opacity: 1;
+  transition: opacity cubic-bezier(.165,.84,.44,1) .95s;
 }
 
 .types {
   text-align: right;
   opacity: .5;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+  font-weight: 200;
+  grid-column-end: span 2;
+}
+
+.slide:hover .description {
+  display: block;
 }
 
 /* animation: fade-in 1s ease .95s forwards,slide-up 1s cubic-bezier(.165,.84,.44,1) .95s; */

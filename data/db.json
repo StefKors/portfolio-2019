@@ -220,6 +220,7 @@
   },
   {
     "Number": 1,
+    "Url": "https://github.com/StefKors/SyntaxCheck",
     "Project": "SyntaxCheck Safari-plugin",
     "Description": "Safari Extension for Syntax Checking on MDN, currently a MVP. This extension makes it easy to search Mozilla Developer Network. Just click the icon and search.",
     "Collaborators": "",

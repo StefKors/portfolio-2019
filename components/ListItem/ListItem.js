@@ -95,22 +95,19 @@ class ListItem extends React.Component {
           <Slide
             key={this.props.index}
             className={styles.slide}
-            onClick={this.handleClick}
-          >
-            <div>
-              <div className={styles.url}>
-                <span className={styles.date}>{this.props.data.Date}</span>
-                <a
-                  href={this.props.data.Url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {this.getHostName(this.props.data.Url)}
-                </a>
+            onClick={this.handleClick} >
+              <div>
+                <div className={styles.url}>
+                  <span className={styles.date}>{this.props.data.Date}</span>
+                  <a href={this.props.data.Url} target="_blank" rel="noopener noreferrer" >{this.getHostName(this.props.data.Url)}</a>
+                </div>
+                <Title className={styles.title}>{this.props.data.Project}</Title>
+
               </div>
-              <Title className={styles.title}>{this.props.data.Project}</Title>
-            </div>
-            <div className={styles.types}>{this.props.data.Tech}</div>
+              <div className={styles.types}>{this.props.data.Tech}</div>  
+              <p className={styles.description}>
+                {this.props.data.Description}
+              </p>
           </Slide>
         </PoseGroup>
       </React.Fragment>

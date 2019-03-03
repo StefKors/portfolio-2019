@@ -21,14 +21,16 @@ const Title = posed.div({
   }
 });
 
+// <Title initialPose="load" pose="loaded">
+// </Title>
+
+import data from "../../data/db.json";
+
 const Introduction = props => (
   <div className={styles.wrapper}>
     <div className={styles.content}>
-      <Title initialPose="load" pose="loaded">
-        Creative Developer
-      </Title>
       <p>
-        Stef Kors is a Designer / Developer. He likes to work on the
+        Stef Kors is a Developer with a background in Design and User Research. He likes to work on the
         intersection of design and code, building great websites with great
         people.
       </p>
@@ -41,7 +43,7 @@ const Introduction = props => (
         online publisher for experimental long-form writing.
       </p>
       <p>
-        He has works at{" "}
+        He has worked at{" "}
         <a target="_blank" href="https://www.ontwerpwerk.nl">
           Ontwerpwerk
         </a>
@@ -64,8 +66,8 @@ const Introduction = props => (
         .
       </p>
       <p>
-        In 2018 he completed a bachelor in Communication and Multimedia Design
-        at The Hague University of Applied Sciences with a minors in Service
+        In he completed a bachelor in Communication and Multimedia Design
+        at The Hague University of Applied Sciences with minors in Service
         Design and Co-Design. He likes to work design, prototype and build
         things — online and offline — that work well and efficiently.
       </p>
