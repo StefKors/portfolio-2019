@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i);
+.wrapper___3G2Iy {
+    padding: 20px;
+}
+img {
+  width: 300px;
+  position: absolute;
+  pointer-events: all;
+  opacity: 0;
+  transition: opacity 300ms;
+  z-index: 1;
+}
+
+img:hover {
+  z-index: 999;
+}
+
+.loaded___1Tn4j {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.afbeelding_wrapper___3FcWV {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+.wrapper___2mg3C {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #f4f2f2;
+  color: #15241A;
+}
+
+.content___3Cxhw {
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+.wrapper___2mg3C a {
+  border-bottom: 1px solid;
+}
+
+em {
+  font-style: normal;
+  padding: 6px 3px 3px 3px;
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.vertical___39UT7 {
+  writing-mode: vertical-rl;
+  /* border-right: 1px solid; */
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.vertical___39UT7 a {
+  padding: 10px 0;
+  opacity: .5;
+  transition: 200ms; 
+}
+
+.vertical___39UT7 a:hover {
+  transition: 200ms; 
+  opacity: 1;
+}
+.wrapper___VZgfh {
+  width: 100%;
+  padding: 50px;
+  text-rendering: optimizeLegibility;
+}
+
+.projectList___34Jt_ {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.slide___2alRg {
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid;
+  width: calc(100%);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 1rem 0 3rem;
+  transition: background 200ms;
+  background-color: #ffffff00;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+}
+
+.slide___2alRg:hover {
+  background-color: #ffffff03;
+  transition: background 200ms;
+}
+
+.title___2k3c_ {
+  z-index: 2;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+  display: block;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+
+.date___1yfpV {
+  display: inline;
+  margin-right: .5rem;
+}
+
+.url___22HdE {
+  display: inline;
+  font-size: 1rem;
+  line-height: 2.1rem;
+  display: block;
+}
+
+.url___22HdE span {
+  opacity: .5;
+}
+
+.url___22HdE a {
+  opacity: .5;
+  transition: opacity cubic-bezier(.165,.84,.44,1) .95s;
+}
+
+.url___22HdE a:hover {
+  opacity: 1;
+  transition: opacity cubic-bezier(.165,.84,.44,1) .95s;
+}
+
+.types___oHEDW {
+  text-align: right;
+  opacity: .5;
+}
+
+.description___2Eoh4 {
+  font-size: 16px;
+  line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+  font-weight: 200;
+  grid-column-end: span 2;
+}
+
+.slide___2alRg:hover .description___2Eoh4 {
+  display: block;
+}
+
+/* animation: fade-in 1s ease .95s forwards,slide-up 1s cubic-bezier(.165,.84,.44,1) .95s; */
+
+.page___m1dKR {
+  font-family: "Overpass", sans-serif;
+  background-color: #f4f2f2;
+  background-color: #15241a;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page_wrapper___EboO- {
+  display: grid;
+  grid-template-columns: 5% 47.5% 47.5%;
+}
