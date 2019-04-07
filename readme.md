@@ -1,5 +1,27 @@
+# how to deploy
+
+1) run `npm run build`
+2) run `npm run export`
+3) run `cd out`
+4) run `now`
+5) run `now alias`
+
+as a oneliner `npm run build && npm run export && cd out && now && now alias`
+
+put this in `./out/now.json`
+```
+{
+  "name": "site",
+  "version": 2,
+  "alias": ["www.stefkors.com", "stefkors.com"]
+}
+```
+
+
+
 https://github.com/react-spring/react-spring
 http://editions.jordansowers.com/bloom
+
 
 
 

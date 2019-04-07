@@ -30,7 +30,7 @@ const Introduction = props => (
   <div className={styles.wrapper}>
     <div className={styles.content}>
       <p>
-        These are my edits Stef Kors is a Developer with a background in Design and User Research. He likes to work on the
+        Stef Kors is a Developer with a background in Design and User Research. He likes to work on the
         intersection of design and code, building great websites with great
         people.
       </p>

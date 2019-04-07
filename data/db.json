@@ -115,6 +115,7 @@
     "Collaborators": "Mateo Broillet, Thijmen van Brunschot, Nina Fistal and Victoria Douka-Doukopoulou",
     "Type": "Book",
     "Tech": "Indesign, Research",
+    "Images": 0,
     "Date": 2017
   },
   {
@@ -124,6 +125,7 @@
     "Collaborators": "Thijmen van Brunschot",
     "Type": "Website",
     "Tech": "Sketching, User-Research, Prototyping",
+    "Images": 0,
     "Date": 2017
   },
   {
@@ -155,6 +157,7 @@
     "Collaborators": "Bynder design team",
     "Type": "User Experience Design",
     "Tech": "Sketching, User-Research, Prototyping",
+    "Images": 0,
     "Date": 2017
   },
   {
@@ -186,6 +189,7 @@
     "Collaborators": "Guido Theelen, Joep van den Broeke, Yvonne Butselaar and Richard Tekel",
     "Type": "Service Design",
     "Tech": "Sketching, User-Research, Prototyping",
+    "Images": 0,
     "Date": 2016
   },
   {
@@ -195,6 +199,7 @@
     "Collaborators": "Eoin O Mahony, Floor Rooijakkers, Janis Seldenthuis and Kendra Penniston",
     "Type": "Service Design",
     "Tech": "Sketching, User-Research, Prototyping",
+    "Images": 0,
     "Date": 2016
   },
   {
@@ -226,6 +231,7 @@
     "Collaborators": "",
     "Type": "Safari Extension",
     "Tech": "Javascript",
+    "Images": 0,
     "Date": 2016
   }
 ]

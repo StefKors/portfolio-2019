@@ -1,8 +1,5 @@
 {
-  "name": "site",
-  "version": 1,
-  "alias": [
-    "www.stefkors.com",
-    "stefkors.com"
-    ]
+ "name": "site",
+ "version": 2,
+ "alias": ["www.stefkors.com", "stefkors.com"]
 }
