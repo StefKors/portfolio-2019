@@ -34,9 +34,9 @@ class Index extends React.Component {
       <div className={styles.page}>
       {/* <Header /> */}
       <div className={styles.page_wrapper}>
-        <Vertical />
-        <List onitemClick={this.handleClick}/>
-        <Introduction />
+        <Vertical className={styles.social} />
+        <Introduction className={styles.introduction}/>
+        <List onitemClick={this.handleClick} className={styles.list}/>
       </div>
 
 

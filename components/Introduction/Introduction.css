@@ -4,7 +4,10 @@
   margin: 0 auto;
   padding: 50px;
   background: #f4f2f2;
-  color: #15241A;
+  color: #15241a;
+
+  grid-column: 3;
+  grid-row: 1;
 }
 
 .content {
@@ -23,4 +26,21 @@ em {
   padding: 6px 3px 3px 3px;
   border-radius: 30px;
   border: 1px solid;
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .content {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    padding: 10px 20px;
+  }
 }

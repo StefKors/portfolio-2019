@@ -5,7 +5,7 @@
   width: calc(100%);
   display: grid;
   grid-template-columns: 70% 30%;
-  padding: 1rem 0 3rem;
+  padding: 1rem 0 1rem;
   transition: background 200ms;
   background-color: #ffffff00;
   cursor: pointer;
@@ -26,6 +26,7 @@
   display: block;
   font-weight: 900;
   text-transform: lowercase;
+  margin-top: 1rem;
 }
 
 .date {
@@ -67,6 +68,10 @@
 -o-font-smoothing: antialiased;
   font-weight: 200;
   grid-column-end: span 2;
+}
+
+.description span {
+  opacity: .5;
 }
 
 .slide:hover .description {

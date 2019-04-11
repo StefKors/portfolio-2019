@@ -7,7 +7,10 @@
   top: 0;
   text-align: center;
   margin: 0 auto;
+  grid-column: 1;
 }
+
+
 
 .vertical a {
   padding: 10px 0;
@@ -18,4 +21,33 @@
 .vertical a:hover {
   transition: 200ms; 
   opacity: 1;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .vertical {
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    writing-mode: horizontal-tb;
+    height: auto;
+    width: 100%;
+    padding: 0 50px;
+    background: #e9e9e9;
+    color: #15241A;
+  }
+  
+  .vertical div {
+    padding: 1rem 0;
+  }
+
+  .vertical a {
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vertical {
+    padding: 0 10px;
+  }
 }

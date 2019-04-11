@@ -43,7 +43,7 @@ const Introduction = props => (
         online publisher for experimental long-form writing.
       </p>
       <p>
-        He has worked at{" "}
+        He works at{" "}
         <a target="_blank" href="https://www.ontwerpwerk.nl">
           Ontwerpwerk
         </a>

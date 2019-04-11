@@ -1,5 +1,27 @@
 [
   {
+    "Number": 24,
+    "Url": "https://www.atlaspensioen.nl",
+    "Project": "Atlas Governance Pensioenfondsen",
+    "Description": "The Atlas Governance Pension Funds is the successor of the 2014 Pension Fund Governance Pension Funds and is focused on the management, supervision and accountability of pension funds. The Atlas aims to provide broad support to the pension sector and is in line with legislation and existing and new digital knowledge bases and training practices.",
+    "Collaborators": "Jonatan van der Horst",
+    "Tech": "Drupal 8, Javascript, Sass",
+    "Type": "Website",
+    "Images": 0,
+    "Date": 2019
+  },
+  {
+    "Number": 23,
+    "Url": "https://www.amyloidosisalliance.org/",
+    "Project": "Amyloidosis Alliance",
+    "Description": "The Amyloidosis Alliance is a global organisation for support, awareness, research, treatment and care of Amyloidosis patients.",
+    "Collaborators": "Bart Mulder",
+    "Tech": "Drupal 8, Javascript, Sass",
+    "Type": "Website",
+    "Images": 0,
+    "Date": 2019
+  },
+  {
     "Number": 22,
     "Url": "https://www.brabantinnovationday.com",
     "Project": "Brabant Innovation Day",
