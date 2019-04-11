@@ -30,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/components/Animation/Animation.js";
+var _jsxFileName = "/Users/stef/code/portfolio/components/Animation/Animation.js";
 
 
 
@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/components/Header/Header.js";
+var _jsxFileName = "/Users/stef/code/portfolio/components/Header/Header.js";
 
 
 
@@ -268,7 +268,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-pose */ "./node_modules/react-pose/dist/react-pose.es.js");
 /* harmony import */ var _data_db_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../data/db.json */ "./data/db.json");
 var _data_db_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/db.json */ "./data/db.json", 1);
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/components/Introduction/Introduction.js";
+var _jsxFileName = "/Users/stef/code/portfolio/components/Introduction/Introduction.js";
 
 
 
@@ -350,7 +350,7 @@ var Introduction = function Introduction(props) {
       lineNumber: 45
     },
     __self: this
-  }, "He has worked at", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "He works at", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     href: "https://www.ontwerpwerk.nl",
     __source: {
@@ -439,7 +439,7 @@ var _data_db_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/components/List/List.js";
+var _jsxFileName = "/Users/stef/code/portfolio/components/List/List.js";
 
 
 
@@ -588,7 +588,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/components/ListItem/ListItem.js";
+var _jsxFileName = "/Users/stef/code/portfolio/components/ListItem/ListItem.js";
 
 
 
@@ -734,37 +734,75 @@ function (_React$Component) {
           lineNumber: 101
         },
         __self: this
-      }, this.props.data.Date), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: this.props.data.Url,
-        target: "_blank",
-        rel: "noopener noreferrer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      }, this.getHostName(this.props.data.Url))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Title, {
+      }, this.props.data.Date)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Title, {
         className: _ListItem_css__WEBPACK_IMPORTED_MODULE_7___default.a.title,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 103
         },
         __self: this
       }, this.props.data.Project)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: _ListItem_css__WEBPACK_IMPORTED_MODULE_7___default.a.types,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 106
         },
         __self: this
       }, this.props.data.Tech), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         className: _ListItem_css__WEBPACK_IMPORTED_MODULE_7___default.a.description,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 107
         },
         __self: this
-      }, this.props.data.Description))));
+      }, this.props.data.Description), this.props.data.Collaborators && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: _ListItem_css__WEBPACK_IMPORTED_MODULE_7___default.a.description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113
+        },
+        __self: this
+      }, "Collaborators:"), " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113
+        },
+        __self: this
+      }), " ", this.props.data.Collaborators), this.props.data.Url && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: _ListItem_css__WEBPACK_IMPORTED_MODULE_7___default.a.description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      }, "Visit:"), " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: this.props.data.Url,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }, this.getHostName(this.props.data.Url))))));
     }
   }]);
 
@@ -789,7 +827,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Vertical_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Vertical.css */ "./components/Vertical/Vertical.css");
 /* harmony import */ var _Vertical_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Vertical_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-pose */ "./node_modules/react-pose/dist/react-pose.es.js");
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/components/Vertical/Vertical.js";
+var _jsxFileName = "/Users/stef/code/portfolio/components/Vertical/Vertical.js";
 
 
 
@@ -860,10 +898,10 @@ var Introduction = function Introduction(props) {
 /*!**********************!*\
   !*** ./data/db.json ***!
   \**********************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, default */
 /***/ (function(module) {
 
-module.exports = [{"Number":22,"Url":"https://www.brabantinnovationday.com","Project":"Brabant Innovation Day","Description":"For the provice of Brabant we designed and developed an event site for the Brabant Innovation Day. An international event to promote Brabant technology and companies around the world.","Collaborators":"Jeffrey Grin","Tech":"Drupal 8, Javascript, Sass","Type":"Website","Images":4,"Date":2019},{"Number":21,"Url":"https://www.florisvermist.nl","Project":"florisvermist.nl","Description":"Personal site for Theater technician Floris Vermist. Featuring projects, tags, highlights and imagegalleries.","Collaborators":"","Type":"Website","Tech":"Kirby CMS, Sass","Images":8,"Date":2018},{"Number":20,"Url":"https://www.oneacre.online/?id=lisa-stef-J1541248969078","Project":"Meaning Seeking Animals","Description":"As a result, the publication borrows from cartography, as it sets the reader adrift on a topographic map of sentences and paragraphs “as it is high time for cartography to take its place among the arts and for the atlas to be recognised as literature, for it is more than worthy of its original name, theatrum ordis terrarum, the theatre of the world”.","Collaborators":"Lisa van Casand, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments","Type":"Website","Images":16,"Date":2018},{"Number":19,"Url":"https://www.oneacre.online/?id=sophieeline-stef-I1541252124421","Project":"Radio, Techno, Fossil","Description":"The publication tunes into our highly textured and complex radio environment by subjecting itself to the unpredictability, seasonality, solar circles of the ionosphere and the current location of the reader. The publication embeds itself by using real time ionospheric measurements to determine how much publication and how much environment arrives.","Collaborators":"Sophie Dyer, Eline Benjaminsen, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments, Weather API, Mobile Gyroscope API","Type":"Website","Images":11,"Date":2018},{"Number":18,"Url":"https://www.publishorperish.pro","Project":"Publish or Perish!","Description":"Do you feel a sense of dread when you open Adobe Indesign or Microsoft Word? If so, Publish or Perish! is the Desktop Publishing tool that’s right for you. With its pressure cooking countdown, a series of sudden disruptions, and achievements to get, Publish or Perish! makes Desktop Publishing challenging like it was back in the days. Publish or Perish! will catapult you to a place where software meets the unexpected. \n \n Publish or Perish is the name for the research and creation project that Silvio Lorusso and Stef Kors, on behalf of the PublishingLab of Amsterdam, have developed for Foto Colectania. This commission has materialized in a free online digital content publishing web/app with the capacity to publish both images and texts.\n\n The work was presented in Barcelona during a Printing Party at Foto Colectania as part of the DONE3 festival.","Collaborators":"Silvio Lorusso","Tech":" Node.js, MongoDB, Fabric.js","Type":"Game","Images":9,"Date":2018},{"Number":17,"Url":"https://www.oneacre.online/?id=karina-stef-D1541252022930","Project":"Artificial Intelligence never has a headache","Description":"The publication imagines a possible future format for tech related theory which — with the constant updates of technology— tend to see the edge of obsolescence straight out of the publisher’s door. Borrowing from version technologies and software lingo, the publication explores what an edition would mean or look like when it occurs as often as update rollups.","Collaborators":"Karina Zavidova, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments","Type":"Website","Images":16,"Date":2018},{"Number":16,"Project":"Biometric Interface","Description":"For Yun Ingrid Eel's performance On Illegibility I built an Biometric Interface which shows RACE, SEX and AGE of the person via facial recognition. With this work Yun Ingrid Eel performed at Sonic Acts Academy 2018 in Amsterdam.","Collaborators":"","Type":"Interface","Tech":"Canvas, Affectiva API","Images":3,"Date":2018},{"Number":15,"Url":"http://www.artscienceforum.nl","Project":"artscienceforum.nl","Description":"ArtScience Forum (ASF) is a platform for open discussion and critical reflection on ArtScience practice(s) today. This website features five different types of articles which are all available directly from the homepage. Using the Kirby CMS makes it easy to add, remove and modify articles.","Collaborators":"","Type":"Website","Tech":"Kirby CMS","Images":9,"Date":2018},{"Number":14,"Url":"https://www.joostkors.com","Project":"joostkors.com","Description":"A personal site for Joost Kors. Based around his projects in the field of architecture. The site contains of a homepage, project page and archive.","Collaborators":"","Tech":"HTML, CSS, Javascript","Type":"Website","Images":7,"Date":2018},{"Number":13,"Url":"https://www.oneacre.online/?id=ingrid-stef-O1541251596681","Project":"Poetics and Politics of Erasure","Description":"Poetics and Politics of Erasure is a multidisciplinary essay on the aesthetics and politics of erasure. The framework for erasure is drawn from a critique of accelerationism, the video game Katamari Damacy, and internet aesthetics. It begins by investigating power relations in dominant archival practices, before tracing how memory storage technology (from the written word to the internet) reinforces hierarchical models of knowledge, and finally posing the generative potential of erasure in alternative models of knowing, doing, and being. It does so by locating strategies of erasure in audio, visual, and digital cultures in the forms of: erasure/forgetting, translation/mutation, and recontextualizing/remythologizing. oneacre.online had a small feature in the Sonic Acts Academy book.","Collaborators":"Ingrid Eel, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments","Type":"Website","Images":17,"Date":2017},{"Number":12,"Project":"Textual and morphological observation of comments sections","Description":"This zine is a series that exist out of the four parts: Texts, Taxonomy, Specimens & Community Guidelines. Showing the information — fragmentarily and outside of their original contexts, throughout the four parts — enables us to highlight the individual.","Collaborators":"Mateo Broillet, Thijmen van Brunschot, Nina Fistal and Victoria Douka-Doukopoulou","Type":"Book","Tech":"Indesign, Research","Images":0,"Date":2017},{"Number":11,"Project":"WPG Media","Description":"In a collaboration between the Hogeschool van Amsterdam's PublishingLab and WPG media our team is doing a project about storytelling, transmedia and the development of new ways of reading. We are working on how to maximize the reading experience and the attention accompanying a new book to appear.","Collaborators":"Thijmen van Brunschot","Type":"Website","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2017},{"Number":10,"Url":"https://stefkors.github.io/FlexiCorn/index.html","Project":"flexicorn.com","Description":"Business development for Flexicorn Corp. Art project by Luke Boorman, exhibited at the graduation festival at The Royal Academy of Art, The Hague. (selfhosted backup)","Collaborators":"Victoria Douka-Doukopoulou, Luke Boorman","Type":"Website","Tech":"HTML, CSS, Javascript","Images":21,"Date":2017},{"Number":9,"Project":"Where the money is made, transaction counter","Description":"For Eline Benjaminsen's work \"Where the money is made\" I made a single page website that illustrates the speed of hi-frequency trading transactions. Exhibited at the graduation festival at The Royal Academy of Art, The Hague and the Nederlands Fotografie Museum","Collaborators":"","Type":"Website","Tech":"HTML, CSS, Javascript","Images":2,"Date":2017},{"Number":8,"Project":"Bynder Onboarding User Experience","Description":"User research and User Experience Design for the onboarding process of Bynder Orbit. While developing this feature I interviewed a large number of clients..","Collaborators":"Bynder design team","Type":"User Experience Design","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2017},{"Number":7,"Url":"http://www.dkdkpl.com/og_site/index.html","Project":"dkdkpl.com/algae","Description":"This site was built to showcase the story and emotions that occured during the research of Victoria Douka-Doukopoulou into Algae.","Collaborators":"Victoria Douka-Doukopoulou","Type":"Website","Tech":"HTML, CSS, Javascript","Images":17,"Date":2017},{"Number":6,"Url":"https://www.oneacre.online/announcement","Project":"part preface / part acknowledgements","Description":"oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilize the omnidirectional website space to seed works.","Collaborators":"Victoria Douka-Doukopoulou and Titus Knegtel","Type":"Website","Tech":"EJS, Node.js, MongoDB Mollie Payments","Images":3,"Date":2017},{"Number":5,"Project":"SwiftPark","Description":"For ProRail we design the trainstation of the future. Co-Designing with the train commuters we developed SwiftPark, the easiest way to get from and to the trainstation.","Collaborators":"Guido Theelen, Joep van den Broeke, Yvonne Butselaar and Richard Tekel","Type":"Service Design","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2016},{"Number":4,"Project":"Reminiscence room","Description":"Project developed in with the support of Jeroen Arendsen from Sherpa. Reminiscing of familiar experiences can be used as active therapy for clients who are in the early stages of dementia. Especially with clients who have mental disabilities, where dementia could start as early as 40 years old. Our team designed a workflow to capture, edit and organise the experiences in a way where the patients of Sherpa are involved in most of the steps.","Collaborators":"Eoin O Mahony, Floor Rooijakkers, Janis Seldenthuis and Kendra Penniston","Type":"Service Design","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2016},{"Number":3,"Project":"Notes/Research App","Description":"In the spring of 2016 I was asked to design an application that could help students and designers keep track of their research and progress. Through design research I was able to determine that most students, artists and designers are using software that isn’t optimised for their way of working. For them I designed a digital notebook to collect and expand their research","Collaborators":"Victoria Douka-Doukopoulou","Type":"App Design","Tech":"Service Design, Sketching, User-Research","Images":5,"Date":2016},{"Number":2,"Url":"https://www.hartstichting.nl","Project":"hartstichting.nl","Description":"As a design intern at Mangrove I worked closely with designer, Ivar van den Broek on Hartstichting.nl. Mangrove and the Dutch Hart Foundation have been working together for a number of years. During this project I was responsible for designing the website, interpreting user-research feedback and iterating the design.","Collaborators":"Ivar van den Broek","Type":"Website","Tech":"Sketch, Invision","Images":4,"Date":2016},{"Number":1,"Url":"https://github.com/StefKors/SyntaxCheck","Project":"SyntaxCheck Safari-plugin","Description":"Safari Extension for Syntax Checking on MDN, currently a MVP. This extension makes it easy to search Mozilla Developer Network. Just click the icon and search.","Collaborators":"","Type":"Safari Extension","Tech":"Javascript","Images":0,"Date":2016}];
+module.exports = [{"Number":24,"Url":"https://www.atlaspensioen.nl","Project":"Atlas Governance Pensioenfondsen","Description":"The Atlas Governance Pension Funds is the successor of the 2014 Pension Fund Governance Pension Funds and is focused on the management, supervision and accountability of pension funds. The Atlas aims to provide broad support to the pension sector and is in line with legislation and existing and new digital knowledge bases and training practices.","Collaborators":"Jonatan van der Horst","Tech":"Drupal 8, Javascript, Sass","Type":"Website","Images":0,"Date":2019},{"Number":23,"Url":"https://www.amyloidosisalliance.org/","Project":"Amyloidosis Alliance","Description":"The Amyloidosis Alliance is a global organisation for support, awareness, research, treatment and care of Amyloidosis patients.","Collaborators":"Bart Mulder","Tech":"Drupal 8, Javascript, Sass","Type":"Website","Images":0,"Date":2019},{"Number":22,"Url":"https://www.brabantinnovationday.com","Project":"Brabant Innovation Day","Description":"For the provice of Brabant we designed and developed an event site for the Brabant Innovation Day. An international event to promote Brabant technology and companies around the world.","Collaborators":"Jeffrey Grin","Tech":"Drupal 8, Javascript, Sass","Type":"Website","Images":4,"Date":2019},{"Number":21,"Url":"https://www.florisvermist.nl","Project":"florisvermist.nl","Description":"Personal site for Theater technician Floris Vermist. Featuring projects, tags, highlights and imagegalleries.","Collaborators":"","Type":"Website","Tech":"Kirby CMS, Sass","Images":8,"Date":2018},{"Number":20,"Url":"https://www.oneacre.online/?id=lisa-stef-J1541248969078","Project":"Meaning Seeking Animals","Description":"As a result, the publication borrows from cartography, as it sets the reader adrift on a topographic map of sentences and paragraphs “as it is high time for cartography to take its place among the arts and for the atlas to be recognised as literature, for it is more than worthy of its original name, theatrum ordis terrarum, the theatre of the world”.","Collaborators":"Lisa van Casand, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments","Type":"Website","Images":16,"Date":2018},{"Number":19,"Url":"https://www.oneacre.online/?id=sophieeline-stef-I1541252124421","Project":"Radio, Techno, Fossil","Description":"The publication tunes into our highly textured and complex radio environment by subjecting itself to the unpredictability, seasonality, solar circles of the ionosphere and the current location of the reader. The publication embeds itself by using real time ionospheric measurements to determine how much publication and how much environment arrives.","Collaborators":"Sophie Dyer, Eline Benjaminsen, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments, Weather API, Mobile Gyroscope API","Type":"Website","Images":11,"Date":2018},{"Number":18,"Url":"https://www.publishorperish.pro","Project":"Publish or Perish!","Description":"Do you feel a sense of dread when you open Adobe Indesign or Microsoft Word? If so, Publish or Perish! is the Desktop Publishing tool that’s right for you. With its pressure cooking countdown, a series of sudden disruptions, and achievements to get, Publish or Perish! makes Desktop Publishing challenging like it was back in the days. Publish or Perish! will catapult you to a place where software meets the unexpected. \n \n Publish or Perish is the name for the research and creation project that Silvio Lorusso and Stef Kors, on behalf of the PublishingLab of Amsterdam, have developed for Foto Colectania. This commission has materialized in a free online digital content publishing web/app with the capacity to publish both images and texts.\n\n The work was presented in Barcelona during a Printing Party at Foto Colectania as part of the DONE3 festival.","Collaborators":"Silvio Lorusso","Tech":" Node.js, MongoDB, Fabric.js","Type":"Game","Images":9,"Date":2018},{"Number":17,"Url":"https://www.oneacre.online/?id=karina-stef-D1541252022930","Project":"Artificial Intelligence never has a headache","Description":"The publication imagines a possible future format for tech related theory which — with the constant updates of technology— tend to see the edge of obsolescence straight out of the publisher’s door. Borrowing from version technologies and software lingo, the publication explores what an edition would mean or look like when it occurs as often as update rollups.","Collaborators":"Karina Zavidova, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments","Type":"Website","Images":16,"Date":2018},{"Number":16,"Project":"Biometric Interface","Description":"For Yun Ingrid Eel's performance On Illegibility I built an Biometric Interface which shows RACE, SEX and AGE of the person via facial recognition. With this work Yun Ingrid Eel performed at Sonic Acts Academy 2018 in Amsterdam.","Collaborators":"","Type":"Interface","Tech":"Canvas, Affectiva API","Images":3,"Date":2018},{"Number":15,"Url":"http://www.artscienceforum.nl","Project":"artscienceforum.nl","Description":"ArtScience Forum (ASF) is a platform for open discussion and critical reflection on ArtScience practice(s) today. This website features five different types of articles which are all available directly from the homepage. Using the Kirby CMS makes it easy to add, remove and modify articles.","Collaborators":"","Type":"Website","Tech":"Kirby CMS","Images":9,"Date":2018},{"Number":14,"Url":"https://www.joostkors.com","Project":"joostkors.com","Description":"A personal site for Joost Kors. Based around his projects in the field of architecture. The site contains of a homepage, project page and archive.","Collaborators":"","Tech":"HTML, CSS, Javascript","Type":"Website","Images":7,"Date":2018},{"Number":13,"Url":"https://www.oneacre.online/?id=ingrid-stef-O1541251596681","Project":"Poetics and Politics of Erasure","Description":"Poetics and Politics of Erasure is a multidisciplinary essay on the aesthetics and politics of erasure. The framework for erasure is drawn from a critique of accelerationism, the video game Katamari Damacy, and internet aesthetics. It begins by investigating power relations in dominant archival practices, before tracing how memory storage technology (from the written word to the internet) reinforces hierarchical models of knowledge, and finally posing the generative potential of erasure in alternative models of knowing, doing, and being. It does so by locating strategies of erasure in audio, visual, and digital cultures in the forms of: erasure/forgetting, translation/mutation, and recontextualizing/remythologizing. oneacre.online had a small feature in the Sonic Acts Academy book.","Collaborators":"Ingrid Eel, Victoria Douka-Doukopoulou and Titus Knegtel","Tech":"EJS, Node.js, MongoDB Mollie Payments","Type":"Website","Images":17,"Date":2017},{"Number":12,"Project":"Textual and morphological observation of comments sections","Description":"This zine is a series that exist out of the four parts: Texts, Taxonomy, Specimens & Community Guidelines. Showing the information — fragmentarily and outside of their original contexts, throughout the four parts — enables us to highlight the individual.","Collaborators":"Mateo Broillet, Thijmen van Brunschot, Nina Fistal and Victoria Douka-Doukopoulou","Type":"Book","Tech":"Indesign, Research","Images":0,"Date":2017},{"Number":11,"Project":"WPG Media","Description":"In a collaboration between the Hogeschool van Amsterdam's PublishingLab and WPG media our team is doing a project about storytelling, transmedia and the development of new ways of reading. We are working on how to maximize the reading experience and the attention accompanying a new book to appear.","Collaborators":"Thijmen van Brunschot","Type":"Website","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2017},{"Number":10,"Url":"https://stefkors.github.io/FlexiCorn/index.html","Project":"flexicorn.com","Description":"Business development for Flexicorn Corp. Art project by Luke Boorman, exhibited at the graduation festival at The Royal Academy of Art, The Hague. (selfhosted backup)","Collaborators":"Victoria Douka-Doukopoulou, Luke Boorman","Type":"Website","Tech":"HTML, CSS, Javascript","Images":21,"Date":2017},{"Number":9,"Project":"Where the money is made, transaction counter","Description":"For Eline Benjaminsen's work \"Where the money is made\" I made a single page website that illustrates the speed of hi-frequency trading transactions. Exhibited at the graduation festival at The Royal Academy of Art, The Hague and the Nederlands Fotografie Museum","Collaborators":"","Type":"Website","Tech":"HTML, CSS, Javascript","Images":2,"Date":2017},{"Number":8,"Project":"Bynder Onboarding User Experience","Description":"User research and User Experience Design for the onboarding process of Bynder Orbit. While developing this feature I interviewed a large number of clients..","Collaborators":"Bynder design team","Type":"User Experience Design","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2017},{"Number":7,"Url":"http://www.dkdkpl.com/og_site/index.html","Project":"dkdkpl.com/algae","Description":"This site was built to showcase the story and emotions that occured during the research of Victoria Douka-Doukopoulou into Algae.","Collaborators":"Victoria Douka-Doukopoulou","Type":"Website","Tech":"HTML, CSS, Javascript","Images":17,"Date":2017},{"Number":6,"Url":"https://www.oneacre.online/announcement","Project":"part preface / part acknowledgements","Description":"oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilize the omnidirectional website space to seed works.","Collaborators":"Victoria Douka-Doukopoulou and Titus Knegtel","Type":"Website","Tech":"EJS, Node.js, MongoDB Mollie Payments","Images":3,"Date":2017},{"Number":5,"Project":"SwiftPark","Description":"For ProRail we design the trainstation of the future. Co-Designing with the train commuters we developed SwiftPark, the easiest way to get from and to the trainstation.","Collaborators":"Guido Theelen, Joep van den Broeke, Yvonne Butselaar and Richard Tekel","Type":"Service Design","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2016},{"Number":4,"Project":"Reminiscence room","Description":"Project developed in with the support of Jeroen Arendsen from Sherpa. Reminiscing of familiar experiences can be used as active therapy for clients who are in the early stages of dementia. Especially with clients who have mental disabilities, where dementia could start as early as 40 years old. Our team designed a workflow to capture, edit and organise the experiences in a way where the patients of Sherpa are involved in most of the steps.","Collaborators":"Eoin O Mahony, Floor Rooijakkers, Janis Seldenthuis and Kendra Penniston","Type":"Service Design","Tech":"Sketching, User-Research, Prototyping","Images":0,"Date":2016},{"Number":3,"Project":"Notes/Research App","Description":"In the spring of 2016 I was asked to design an application that could help students and designers keep track of their research and progress. Through design research I was able to determine that most students, artists and designers are using software that isn’t optimised for their way of working. For them I designed a digital notebook to collect and expand their research","Collaborators":"Victoria Douka-Doukopoulou","Type":"App Design","Tech":"Service Design, Sketching, User-Research","Images":5,"Date":2016},{"Number":2,"Url":"https://www.hartstichting.nl","Project":"hartstichting.nl","Description":"As a design intern at Mangrove I worked closely with designer, Ivar van den Broek on Hartstichting.nl. Mangrove and the Dutch Hart Foundation have been working together for a number of years. During this project I was responsible for designing the website, interpreting user-research feedback and iterating the design.","Collaborators":"Ivar van den Broek","Type":"Website","Tech":"Sketch, Invision","Images":4,"Date":2016},{"Number":1,"Url":"https://github.com/StefKors/SyntaxCheck","Project":"SyntaxCheck Safari-plugin","Description":"Safari Extension for Syntax Checking on MDN, currently a MVP. This extension makes it easy to search Mozilla Developer Network. Just click the icon and search.","Collaborators":"","Type":"Safari Extension","Tech":"Javascript","Images":0,"Date":2016}];
 
 /***/ }),
 
@@ -963,6 +1001,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "./node_modules/core-js/library/fn/object/get-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./node_modules/core-js/library/fn/object/keys.js");
 
 /***/ }),
 
@@ -2283,16 +2332,21 @@ var __assign = function() {
 var mixLinearColor = function (from, to, v) {
     var fromExpo = from * from;
     var toExpo = to * to;
-    return Math.sqrt(v * (toExpo - fromExpo) + fromExpo);
+    return Math.sqrt(Math.max(0, v * (toExpo - fromExpo) + fromExpo));
 };
 var colorTypes = [style_value_types__WEBPACK_IMPORTED_MODULE_0__["hex"], style_value_types__WEBPACK_IMPORTED_MODULE_0__["rgba"], style_value_types__WEBPACK_IMPORTED_MODULE_0__["hsla"]];
 var getColorType = function (v) {
     return colorTypes.find(function (type) { return type.test(v); });
 };
+var notAnimatable = function (color$$1) {
+    return "'" + color$$1 + "' is not an animatable color. Use the equivalent color code instead.";
+};
 var mixColor = (function (from, to) {
     var fromColorType = getColorType(from);
     var toColorType = getColorType(to);
-    Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(fromColorType.transform === toColorType.transform, 'Both colors must be Hex and/or RGBA, or both must be HSLA');
+    Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(!!fromColorType, notAnimatable(from));
+    Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(!!toColorType, notAnimatable(to));
+    Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(fromColorType.transform === toColorType.transform, 'Both colors must be hex/RGBA, OR both must be HSLA.');
     var fromColor = fromColorType.parse(from);
     var toColor = toColorType.parse(to);
     var blended = __assign({}, fromColor);
@@ -2345,34 +2399,38 @@ var mixComplex = function (from, to) {
     return pipe(mixArray(style_value_types__WEBPACK_IMPORTED_MODULE_0__["complex"].parse(from), style_value_types__WEBPACK_IMPORTED_MODULE_0__["complex"].parse(to)), valueTemplate);
 };
 
-var mixNumber = curryRange(mix);
-var getMixer = function (v) {
-    return typeof v === 'number'
-        ? mixNumber
-        : style_value_types__WEBPACK_IMPORTED_MODULE_0__["color"].test(v)
-            ? mixColor
-            : mixComplex;
-};
-var createMixers = function (output, ease) {
-    return Array(output.length - 1)
-        .fill(getMixer(output[0]))
-        .map(function (factory, i) {
-        var mixer = factory(output[i], output[i + 1]);
+var mixNumber = function (from, to) { return function (p) { return mix(from, to, p); }; };
+function detectMixerFactory(v) {
+    if (typeof v === 'number') {
+        return mixNumber;
+    }
+    if (style_value_types__WEBPACK_IMPORTED_MODULE_0__["color"].test(v)) {
+        return mixColor;
+    }
+    else {
+        return mixComplex;
+    }
+}
+function createMixers(output, ease, customMixer) {
+    var mixers = [];
+    var mixerFactory = customMixer || detectMixerFactory(output[0]);
+    var numMixers = output.length - 1;
+    for (var i = 0; i < numMixers; i++) {
+        var mixer = mixerFactory(output[i], output[i + 1]);
         if (ease) {
             var easingFunction = Array.isArray(ease) ? ease[i] : ease;
-            return pipe(easingFunction, mixer);
+            mixer = pipe(easingFunction, mixer);
         }
-        else {
-            return mixer;
-        }
-    });
-};
-var fastInterpolate = function (_a, _b) {
+        mixers.push(mixer);
+    }
+    return mixers;
+}
+function fastInterpolate(_a, _b) {
     var from = _a[0], to = _a[1];
     var mixer = _b[0];
     return function (v) { return mixer(progress(from, to, v)); };
-};
-var slowInterpolate = function (input, mixers) {
+}
+function slowInterpolate(input, mixers) {
     var inputLength = input.length;
     var lastInputIndex = inputLength - 1;
     return function (v) {
@@ -2397,26 +2455,26 @@ var slowInterpolate = function (input, mixers) {
         var progressInRange = progress(input[mixerIndex], input[mixerIndex + 1], v);
         return mixers[mixerIndex](progressInRange);
     };
-};
-var interpolate = (function (input, output, _a) {
-    var _b = _a === void 0 ? {} : _a, _c = _b.clamp, clamp = _c === void 0 ? true : _c, ease = _b.ease;
+}
+function interpolate(input, output, _a) {
+    var _b = _a === void 0 ? {} : _a, _c = _b.clamp, clamp = _c === void 0 ? true : _c, ease = _b.ease, mixer = _b.mixer;
     var inputLength = input.length;
     Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(inputLength === output.length, 'Both input and output ranges must be the same length');
-    Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(!ease || !Array.isArray(ease) || ease.length === input.length - 1, 'Array of easing functions must be of length `input.length - 1`, as it applies to the transitions **between** the defined values.');
+    Object(hey_listen__WEBPACK_IMPORTED_MODULE_1__["invariant"])(!ease || !Array.isArray(ease) || ease.length === inputLength - 1, 'Array of easing functions must be of length `input.length - 1`, as it applies to the transitions **between** the defined values.');
     if (input[0] > input[inputLength - 1]) {
-        input = input.slice();
-        output = output.slice();
+        input = [].concat(input);
+        output = [].concat(output);
         input.reverse();
         output.reverse();
     }
-    var mixers = createMixers(output, ease);
-    var interpolate = inputLength === 2
+    var mixers = createMixers(output, ease, mixer);
+    var interpolator = inputLength === 2
         ? fastInterpolate(input, mixers)
         : slowInterpolate(input, mixers);
     return clamp
-        ? pipe(clamp$1(input[0], input[inputLength - 1]), interpolate)
-        : interpolate;
-});
+        ? pipe(clamp$1(input[0], input[inputLength - 1]), interpolator)
+        : interpolator;
+}
 
 var pointFromVector = (function (origin, angle, distance) {
     angle = degreesToRadians(angle);
@@ -2648,6 +2706,19 @@ module.exports = function defineProperty(it, key, desc) {
 
 __webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/keys.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/keys.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.keys */ "./node_modules/core-js/library/modules/es6.object.keys.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.keys;
 
 
 /***/ }),
@@ -3296,7 +3367,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.1' };
+var core = module.exports = { version: '2.6.5' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -4721,7 +4792,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
-  copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -5304,6 +5375,26 @@ var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/c
 __webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
     return $getPrototypeOf(toObject(it));
+  };
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.keys.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.keys.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.14 Object.keys(O)
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+
+__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
+  return function keys(it) {
+    return $keys(toObject(it));
   };
 });
 
@@ -6524,126 +6615,29 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 /*!*******************************************************!*\
   !*** ./node_modules/hey-listen/dist/hey-listen.es.js ***!
   \*******************************************************/
-/*! exports provided: warning, invariant */
+/*! exports provided: invariant, warning */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "warning", function() { return warning; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "invariant", function() { return invariant; });
-var HEY_LISTEN = 'Hey, listen! ';
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "warning", function() { return warning; });
 var warning = function () { };
 var invariant = function () { };
 if (true) {
     warning = function (check, message) {
         if (!check && typeof console !== 'undefined') {
-            console.warn(HEY_LISTEN + message);
+            console.warn(message);
         }
     };
     invariant = function (check, message) {
         if (!check) {
-            throw new Error(HEY_LISTEN.toUpperCase() + message);
+            throw new Error(message);
         }
     };
 }
 
 
-
-
-/***/ }),
-
-/***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Copyright 2015, Yahoo! Inc.
- * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
- */
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var REACT_STATICS = {
-    childContextTypes: true,
-    contextType: true,
-    contextTypes: true,
-    defaultProps: true,
-    displayName: true,
-    getDefaultProps: true,
-    getDerivedStateFromError: true,
-    getDerivedStateFromProps: true,
-    mixins: true,
-    propTypes: true,
-    type: true
-};
-
-var KNOWN_STATICS = {
-    name: true,
-    length: true,
-    prototype: true,
-    caller: true,
-    callee: true,
-    arguments: true,
-    arity: true
-};
-
-var FORWARD_REF_STATICS = {
-    '$$typeof': true,
-    render: true
-};
-
-var TYPE_STATICS = {};
-TYPE_STATICS[ReactIs.ForwardRef] = FORWARD_REF_STATICS;
-
-var defineProperty = Object.defineProperty;
-var getOwnPropertyNames = Object.getOwnPropertyNames;
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-var getPrototypeOf = Object.getPrototypeOf;
-var objectPrototype = Object.prototype;
-
-function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-    if (typeof sourceComponent !== 'string') {
-        // don't hoist over string (html) components
-
-        if (objectPrototype) {
-            var inheritedComponent = getPrototypeOf(sourceComponent);
-            if (inheritedComponent && inheritedComponent !== objectPrototype) {
-                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-            }
-        }
-
-        var keys = getOwnPropertyNames(sourceComponent);
-
-        if (getOwnPropertySymbols) {
-            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
-        }
-
-        var targetStatics = TYPE_STATICS[targetComponent['$$typeof']] || REACT_STATICS;
-        var sourceStatics = TYPE_STATICS[sourceComponent['$$typeof']] || REACT_STATICS;
-
-        for (var i = 0; i < keys.length; ++i) {
-            var key = keys[i];
-            if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
-                try {
-                    // Avoid failures from read-only properties
-                    defineProperty(targetComponent, key, descriptor);
-                } catch (e) {}
-            }
-        }
-
-        return targetComponent;
-    }
-
-    return targetComponent;
-}
-
-module.exports = hoistNonReactStatics;
 
 
 /***/ }),
@@ -6714,17 +6708,16 @@ exports.default = mitt;
 
 "use strict";
 
-/* global __NEXT_DATA__ */
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js"));
-
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js"));
 
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js"));
 
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js"));
+
+var _promise = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js"));
 
 var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
 
@@ -6748,23 +6741,23 @@ var url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
 
 var mitt_1 = __importDefault(__webpack_require__(/*! ../mitt */ "./node_modules/next-server/dist/lib/mitt.js"));
 
-var shallow_equals_1 = __importDefault(__webpack_require__(/*! ./shallow-equals */ "./node_modules/next-server/dist/lib/router/shallow-equals.js"));
-
 var utils_1 = __webpack_require__(/*! ../utils */ "./node_modules/next-server/dist/lib/utils.js");
+
+function toRoute(path) {
+  return path.replace(/\/$/, '') || '/';
+}
 
 var Router =
 /*#__PURE__*/
 function () {
-  function Router(pathname, query, as) {
+  function Router(pathname, query, as, _ref) {
     var _this = this;
 
-    var _ref = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {},
-        initialProps = _ref.initialProps,
+    var initialProps = _ref.initialProps,
         pageLoader = _ref.pageLoader,
         App = _ref.App,
         Component = _ref.Component,
         err = _ref.err;
-
     (0, _classCallCheck2.default)(this, Router);
 
     this.onPopState = function (e) {
@@ -6781,7 +6774,7 @@ function () {
         var _pathname = _this.pathname,
             _query = _this.query;
 
-        _this.changeState('replaceState', url_1.format({
+        _this.changeState('replaceState', utils_1.formatWithValidation({
           pathname: _pathname,
           query: _query
         }), utils_1.getURL());
@@ -6791,7 +6784,7 @@ function () {
       // They will then be responsible for handling the event.
 
 
-      if (!_this._beforePopState(e.state)) {
+      if (_this._bps && !_this._bps(e.state)) {
         return;
       }
 
@@ -6828,6 +6821,7 @@ function () {
       Component: App
     }; // Backwards compat for Router.router.events
     // TODO: Should be remove the following major version as it was never documented
+    // @ts-ignore backwards compatibility
 
     this.events = Router.events;
     this.pageLoader = pageLoader;
@@ -6837,18 +6831,27 @@ function () {
     this.subscriptions = new _set.default();
     this.componentLoadCancel = null;
 
-    this._beforePopState = function () {
-      return true;
-    };
-
     if (typeof window !== 'undefined') {
       // in order for `e.state` to work on the `onpopstate` event
       // we have to register the initial route upon initialization
-      this.changeState('replaceState', url_1.format({
+      this.changeState('replaceState', utils_1.formatWithValidation({
         pathname: pathname,
         query: query
       }), as);
-      window.addEventListener('popstate', this.onPopState);
+      window.addEventListener('popstate', this.onPopState); // Workaround for weird Firefox bug, see below links
+      // https://github.com/zeit/next.js/issues/3817
+      // https://bugzilla.mozilla.org/show_bug.cgi?id=1422334
+      // TODO: let's remove this once the Firefox bug is resolved
+
+      if (navigator.userAgent && navigator.userAgent.match(/firefox/i)) {
+        window.addEventListener('unload', function () {
+          try {
+            if (window.location.search) window.location.replace(window.location.toString());
+          } catch (_) {
+            /* since it's a workaround, ignore */
+          }
+        });
+      }
     }
   }
 
@@ -6877,73 +6880,43 @@ function () {
     }
   }, {
     key: "reload",
-    value: function () {
-      var _reload = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee(route) {
-        var pathname, query, url, as, routeInfo, error;
-        return _regenerator.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                delete this.components[route];
-                this.pageLoader.clearCache(route);
+    value: function reload(route) {
+      var _this2 = this;
 
-                if (!(route !== this.route)) {
-                  _context.next = 4;
-                  break;
-                }
+      return new _promise.default(function (resolve, reject) {
+        delete _this2.components[route];
 
-                return _context.abrupt("return");
+        _this2.pageLoader.clearCache(route);
 
-              case 4:
-                pathname = this.pathname, query = this.query;
-                url = window.location.href; // This makes sure we only use pathname + query + hash, to mirror `asPath` coming from the server.
+        if (route !== _this2.route) {
+          return resolve();
+        }
 
-                as = window.location.pathname + window.location.search + window.location.hash;
-                Router.events.emit('routeChangeStart', url);
-                _context.next = 10;
-                return this.getRouteInfo(route, pathname, query, as);
+        var pathname = _this2.pathname,
+            query = _this2.query;
+        var url = window.location.href; // This makes sure we only use pathname + query + hash, to mirror `asPath` coming from the server.
 
-              case 10:
-                routeInfo = _context.sent;
-                error = routeInfo.error;
+        var as = window.location.pathname + window.location.search + window.location.hash;
+        Router.events.emit('routeChangeStart', url);
 
-                if (!(error && error.cancelled)) {
-                  _context.next = 14;
-                  break;
-                }
+        _this2.getRouteInfo(route, pathname, query, as).then(function (routeInfo) {
+          var error = routeInfo.error;
 
-                return _context.abrupt("return");
-
-              case 14:
-                this.notify(routeInfo);
-
-                if (!error) {
-                  _context.next = 18;
-                  break;
-                }
-
-                Router.events.emit('routeChangeError', error, url);
-                throw error;
-
-              case 18:
-                Router.events.emit('routeChangeComplete', url);
-
-              case 19:
-              case "end":
-                return _context.stop();
-            }
+          if (error && error.cancelled) {
+            return resolve();
           }
-        }, _callee, this);
-      }));
 
-      function reload(_x) {
-        return _reload.apply(this, arguments);
-      }
+          _this2.notify(routeInfo);
 
-      return reload;
-    }()
+          if (error) {
+            Router.events.emit('routeChangeError', error, url);
+            return reject(error);
+          }
+
+          Router.events.emit('routeChangeComplete', url);
+        });
+      });
+    }
   }, {
     key: "back",
     value: function back() {
@@ -6965,118 +6938,85 @@ function () {
     }
   }, {
     key: "change",
-    value: function () {
-      var _change = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee2(method, _url, _as, options) {
-        var url, as, _url_1$parse, pathname, query, route, _options$shallow, shallow, routeInfo, _routeInfo, error, hash;
+    value: function change(method, _url, _as, options) {
+      var _this3 = this;
 
-        return _regenerator.default.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                // If url and as provided as an object representation,
-                // we'll format them into the string version here.
-                url = (0, _typeof2.default)(_url) === 'object' ? url_1.format(_url) : _url;
-                as = (0, _typeof2.default)(_as) === 'object' ? url_1.format(_as) : _as; // Add the ending slash to the paths. So, we can serve the
-                // "<page>/index.html" directly for the SSR page.
+      return new _promise.default(function (resolve, reject) {
+        // If url and as provided as an object representation,
+        // we'll format them into the string version here.
+        var url = typeof _url === 'object' ? utils_1.formatWithValidation(_url) : _url;
+        var as = typeof _as === 'object' ? utils_1.formatWithValidation(_as) : _as; // Add the ending slash to the paths. So, we can serve the
+        // "<page>/index.html" directly for the SSR page.
 
-                if (__NEXT_DATA__.nextExport) {
-                  as = Router._rewriteUrlForNextExport(as);
-                }
-
-                this.abortComponentLoad(as); // If the url change is only related to a hash change
-                // We should not proceed. We should only change the state.
-
-                if (!this.onlyAHashChange(as)) {
-                  _context2.next = 10;
-                  break;
-                }
-
-                Router.events.emit('hashChangeStart', as);
-                this.changeState(method, url, as);
-                this.scrollToHash(as);
-                Router.events.emit('hashChangeComplete', as);
-                return _context2.abrupt("return", true);
-
-              case 10:
-                _url_1$parse = url_1.parse(url, true), pathname = _url_1$parse.pathname, query = _url_1$parse.query; // If asked to change the current URL we should reload the current page
-                // (not location.reload() but reload getInitialProps and other Next.js stuffs)
-                // We also need to set the method = replaceState always
-                // as this should not go into the history (That's how browsers work)
-                // We should compare the new asPath to the current asPath, not the url
-
-                if (!this.urlIsNew(as)) {
-                  method = 'replaceState';
-                }
-
-                route = toRoute(pathname);
-                _options$shallow = options.shallow, shallow = _options$shallow === void 0 ? false : _options$shallow;
-                routeInfo = null;
-                Router.events.emit('routeChangeStart', as); // If shallow === false and other conditions met, we reuse the
-                // existing routeInfo for this route.
-                // Because of this, getInitialProps would not run.
-
-                if (!(shallow && this.isShallowRoutingPossible(route))) {
-                  _context2.next = 20;
-                  break;
-                }
-
-                routeInfo = this.components[route];
-                _context2.next = 23;
-                break;
-
-              case 20:
-                _context2.next = 22;
-                return this.getRouteInfo(route, pathname, query, as);
-
-              case 22:
-                routeInfo = _context2.sent;
-
-              case 23:
-                _routeInfo = routeInfo, error = _routeInfo.error;
-
-                if (!(error && error.cancelled)) {
-                  _context2.next = 26;
-                  break;
-                }
-
-                return _context2.abrupt("return", false);
-
-              case 26:
-                Router.events.emit('beforeHistoryChange', as);
-                this.changeState(method, url, as, options);
-                hash = window.location.hash.substring(1);
-                this.set(route, pathname, query, as, (0, _assign.default)({}, routeInfo, {
-                  hash: hash
-                }));
-
-                if (!error) {
-                  _context2.next = 33;
-                  break;
-                }
-
-                Router.events.emit('routeChangeError', error, as);
-                throw error;
-
-              case 33:
-                Router.events.emit('routeChangeComplete', as);
-                return _context2.abrupt("return", true);
-
-              case 35:
-              case "end":
-                return _context2.stop();
-            }
+        if (true) {
+          // @ts-ignore this is temporarily global (attached to window)
+          if (__NEXT_DATA__.nextExport) {
+            as = Router._rewriteUrlForNextExport(as);
           }
-        }, _callee2, this);
-      }));
+        }
 
-      function change(_x2, _x3, _x4, _x5) {
-        return _change.apply(this, arguments);
-      }
+        _this3.abortComponentLoad(as); // If the url change is only related to a hash change
+        // We should not proceed. We should only change the state.
 
-      return change;
-    }()
+
+        if (_this3.onlyAHashChange(as)) {
+          Router.events.emit('hashChangeStart', as);
+
+          _this3.changeState(method, url, as);
+
+          _this3.scrollToHash(as);
+
+          Router.events.emit('hashChangeComplete', as);
+          return true;
+        }
+
+        var _url_1$parse = url_1.parse(url, true),
+            pathname = _url_1$parse.pathname,
+            query = _url_1$parse.query; // If asked to change the current URL we should reload the current page
+        // (not location.reload() but reload getInitialProps and other Next.js stuffs)
+        // We also need to set the method = replaceState always
+        // as this should not go into the history (That's how browsers work)
+        // We should compare the new asPath to the current asPath, not the url
+
+
+        if (!_this3.urlIsNew(as)) {
+          method = 'replaceState';
+        } // @ts-ignore pathname is always a string
+
+
+        var route = toRoute(pathname);
+        var _options$shallow = options.shallow,
+            shallow = _options$shallow === void 0 ? false : _options$shallow;
+        Router.events.emit('routeChangeStart', as); // If shallow is true and the route exists in the router cache we reuse the previous result
+        // @ts-ignore pathname is always a string
+
+        _this3.getRouteInfo(route, pathname, query, as, shallow).then(function (routeInfo) {
+          var error = routeInfo.error;
+
+          if (error && error.cancelled) {
+            return resolve(false);
+          }
+
+          Router.events.emit('beforeHistoryChange', as);
+
+          _this3.changeState(method, url, as, options);
+
+          var hash = window.location.hash.substring(1); // @ts-ignore pathname is always defined
+
+          _this3.set(route, pathname, query, as, (0, _assign.default)({}, routeInfo, {
+            hash: hash
+          }));
+
+          if (error) {
+            Router.events.emit('routeChangeError', error, as);
+            throw error;
+          }
+
+          Router.events.emit('routeChangeComplete', as);
+          return resolve(true);
+        }, reject);
+      });
+    }
   }, {
     key: "changeState",
     value: function changeState(method, url, as) {
@@ -7086,7 +7026,8 @@ function () {
         if (typeof window.history === 'undefined') {
           console.error("Warning: window.history is not available.");
           return;
-        }
+        } // @ts-ignore method should always exist on history
+
 
         if (typeof window.history[method] === 'undefined') {
           console.error("Warning: window.history.".concat(method, " is not available"));
@@ -7095,6 +7036,7 @@ function () {
       }
 
       if (method !== 'pushState' || utils_1.getURL() !== as) {
+        // @ts-ignore method should always exist on history
         window.history[method]({
           url: url,
           as: as,
@@ -7104,145 +7046,103 @@ function () {
     }
   }, {
     key: "getRouteInfo",
-    value: function () {
-      var _getRouteInfo = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee3(route, pathname, query, as) {
-        var routeInfo, _routeInfo2, Component, _require, isValidElementType, ctx, _Component, _ctx;
+    value: function getRouteInfo(route, pathname, query, as) {
+      var _this4 = this;
 
-        return _regenerator.default.wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                routeInfo = null;
-                _context3.prev = 1;
-                routeInfo = this.components[route];
+      var shallow = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
+      var cachedRouteInfo = this.components[route]; // If there is a shallow route transition possible
+      // If the route is already rendered on the screen.
 
-                if (routeInfo) {
-                  _context3.next = 8;
-                  break;
-                }
-
-                _context3.next = 6;
-                return this.fetchComponent(route, as);
-
-              case 6:
-                _context3.t0 = _context3.sent;
-                routeInfo = {
-                  Component: _context3.t0
-                };
-
-              case 8:
-                _routeInfo2 = routeInfo, Component = _routeInfo2.Component;
-
-                if (false) {}
-
-                _require = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js"), isValidElementType = _require.isValidElementType;
-
-                if (isValidElementType(Component)) {
-                  _context3.next = 13;
-                  break;
-                }
-
-                throw new Error("The default export is not a React Component in page: \"".concat(pathname, "\""));
-
-              case 13:
-                ctx = {
-                  pathname: pathname,
-                  query: query,
-                  asPath: as
-                };
-                _context3.next = 16;
-                return this.getInitialProps(Component, ctx);
-
-              case 16:
-                routeInfo.props = _context3.sent;
-                this.components[route] = routeInfo;
-                _context3.next = 44;
-                break;
-
-              case 20:
-                _context3.prev = 20;
-                _context3.t1 = _context3["catch"](1);
-
-                if (!(_context3.t1.code === 'PAGE_LOAD_ERROR')) {
-                  _context3.next = 26;
-                  break;
-                }
-
-                // If we can't load the page it could be one of following reasons
-                //  1. Page doesn't exists
-                //  2. Page does exist in a different zone
-                //  3. Internal error while loading the page
-                // So, doing a hard reload is the proper way to deal with this.
-                window.location.href = as; // Changing the URL doesn't block executing the current code path.
-                // So, we need to mark it as a cancelled error and stop the routing logic.
-
-                _context3.t1.cancelled = true;
-                return _context3.abrupt("return", {
-                  error: _context3.t1
-                });
-
-              case 26:
-                if (!_context3.t1.cancelled) {
-                  _context3.next = 28;
-                  break;
-                }
-
-                return _context3.abrupt("return", {
-                  error: _context3.t1
-                });
-
-              case 28:
-                _context3.next = 30;
-                return this.fetchComponent('/_error');
-
-              case 30:
-                _Component = _context3.sent;
-                routeInfo = {
-                  Component: _Component,
-                  err: _context3.t1
-                };
-                _ctx = {
-                  err: _context3.t1,
-                  pathname: pathname,
-                  query: query
-                };
-                _context3.prev = 33;
-                _context3.next = 36;
-                return this.getInitialProps(_Component, _ctx);
-
-              case 36:
-                routeInfo.props = _context3.sent;
-                _context3.next = 43;
-                break;
-
-              case 39:
-                _context3.prev = 39;
-                _context3.t2 = _context3["catch"](33);
-                console.error('Error in error page `getInitialProps`: ', _context3.t2);
-                routeInfo.props = {};
-
-              case 43:
-                routeInfo.error = _context3.t1;
-
-              case 44:
-                return _context3.abrupt("return", routeInfo);
-
-              case 45:
-              case "end":
-                return _context3.stop();
-            }
-          }
-        }, _callee3, this, [[1, 20], [33, 39]]);
-      }));
-
-      function getRouteInfo(_x6, _x7, _x8, _x9) {
-        return _getRouteInfo.apply(this, arguments);
+      if (shallow && cachedRouteInfo && this.route === route) {
+        return _promise.default.resolve(cachedRouteInfo);
       }
 
-      return getRouteInfo;
-    }()
+      return new _promise.default(function (resolve, reject) {
+        if (cachedRouteInfo) {
+          return resolve(cachedRouteInfo);
+        }
+
+        _this4.fetchComponent(route).then(function (Component) {
+          return resolve({
+            Component: Component
+          });
+        }, reject);
+      }).then(function (routeInfo) {
+        var Component = routeInfo.Component;
+
+        if (true) {
+          var _require = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js"),
+              isValidElementType = _require.isValidElementType;
+
+          if (!isValidElementType(Component)) {
+            throw new Error("The default export is not a React Component in page: \"".concat(pathname, "\""));
+          }
+        }
+
+        return new _promise.default(function (resolve, reject) {
+          var ctx = {
+            pathname: pathname,
+            query: query,
+            asPath: as
+          };
+
+          _this4.getInitialProps(Component, ctx).then(function (props) {
+            routeInfo.props = props;
+            _this4.components[route] = routeInfo;
+            resolve(routeInfo);
+          }, reject);
+        });
+      }).catch(function (err) {
+        return new _promise.default(function (resolve) {
+          if (err.code === 'PAGE_LOAD_ERROR') {
+            // If we can't load the page it could be one of following reasons
+            //  1. Page doesn't exists
+            //  2. Page does exist in a different zone
+            //  3. Internal error while loading the page
+            // So, doing a hard reload is the proper way to deal with this.
+            window.location.href = as; // Changing the URL doesn't block executing the current code path.
+            // So, we need to mark it as a cancelled error and stop the routing logic.
+
+            err.cancelled = true; // @ts-ignore TODO: fix the control flow here
+
+            return resolve({
+              error: err
+            });
+          }
+
+          if (err.cancelled) {
+            // @ts-ignore TODO: fix the control flow here
+            return resolve({
+              error: err
+            });
+          }
+
+          resolve(_this4.fetchComponent('/_error').then(function (Component) {
+            var routeInfo = {
+              Component: Component,
+              err: err
+            };
+            var ctx = {
+              err: err,
+              pathname: pathname,
+              query: query
+            };
+            return new _promise.default(function (resolve) {
+              _this4.getInitialProps(Component, ctx).then(function (props) {
+                routeInfo.props = props;
+                routeInfo.error = err;
+                resolve(routeInfo);
+              }, function (gipErr) {
+                console.error('Error in error page `getInitialProps`: ', gipErr);
+                routeInfo.error = err;
+                routeInfo.props = {};
+                resolve(routeInfo);
+              });
+            });
+          }));
+        });
+      });
+    }
   }, {
     key: "set",
     value: function set(route, pathname, query, as, data) {
@@ -7255,7 +7155,7 @@ function () {
   }, {
     key: "beforePopState",
     value: function beforePopState(cb) {
-      this._beforePopState = cb;
+      this._bps = cb;
     }
   }, {
     key: "onlyAHashChange",
@@ -7320,68 +7220,36 @@ function () {
   }, {
     key: "urlIsNew",
     value: function urlIsNew(asPath) {
-      var _url_1$parse2 = url_1.parse(asPath, true),
-          pathname = _url_1$parse2.pathname,
-          query = _url_1$parse2.query;
-
-      var _url_1$parse3 = url_1.parse(this.asPath, true),
-          curPathname = _url_1$parse3.pathname;
-
-      return curPathname !== pathname || !shallow_equals_1.default(query, this.query);
-    }
-  }, {
-    key: "isShallowRoutingPossible",
-    value: function isShallowRoutingPossible(route) {
-      return (// If there's cached routeInfo for the route.
-        Boolean(this.components[route]) && // If the route is already rendered on the screen.
-        this.route === route
-      );
+      return this.asPath !== asPath;
     }
   }, {
     key: "prefetch",
-    value: function () {
-      var _prefetch = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee4(url) {
-        var _url_1$parse4, pathname, route;
+    value: function prefetch(url) {
+      var _this5 = this;
 
-        return _regenerator.default.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                if (false) {}
+      return new _promise.default(function (resolve, reject) {
+        // Prefetch is not supported in development mode because it would trigger on-demand-entries
+        if (true) return;
 
-                return _context4.abrupt("return");
+        var _url_1$parse2 = url_1.parse(url),
+            pathname = _url_1$parse2.pathname; // @ts-ignore pathname is always defined
 
-              case 2:
-                _url_1$parse4 = url_1.parse(url), pathname = _url_1$parse4.pathname;
-                route = toRoute(pathname);
-                return _context4.abrupt("return", this.pageLoader.prefetch(route));
 
-              case 5:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this);
-      }));
+        var route = toRoute(pathname);
 
-      function prefetch(_x10) {
-        return _prefetch.apply(this, arguments);
-      }
-
-      return prefetch;
-    }()
+        _this5.pageLoader.prefetch(route).then(resolve, reject);
+      });
+    }
   }, {
     key: "fetchComponent",
     value: function () {
       var _fetchComponent = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee5(route, as) {
+      _regenerator.default.mark(function _callee(route) {
         var cancelled, cancel, Component, error;
-        return _regenerator.default.wrap(function _callee5$(_context5) {
+        return _regenerator.default.wrap(function _callee$(_context) {
           while (1) {
-            switch (_context5.prev = _context5.next) {
+            switch (_context.prev = _context.next) {
               case 0:
                 cancelled = false;
 
@@ -7389,14 +7257,14 @@ function () {
                   cancelled = true;
                 };
 
-                _context5.next = 4;
-                return this.fetchRoute(route);
+                _context.next = 4;
+                return this.pageLoader.loadPage(route);
 
               case 4:
-                Component = _context5.sent;
+                Component = _context.sent;
 
                 if (!cancelled) {
-                  _context5.next = 9;
+                  _context.next = 9;
                   break;
                 }
 
@@ -7409,17 +7277,17 @@ function () {
                   this.componentLoadCancel = null;
                 }
 
-                return _context5.abrupt("return", Component);
+                return _context.abrupt("return", Component);
 
               case 11:
               case "end":
-                return _context5.stop();
+                return _context.stop();
             }
           }
-        }, _callee5, this);
+        }, _callee, this);
       }));
 
-      function fetchComponent(_x11, _x12) {
+      function fetchComponent(_x) {
         return _fetchComponent.apply(this, arguments);
       }
 
@@ -7430,11 +7298,11 @@ function () {
     value: function () {
       var _getInitialProps = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee6(Component, ctx) {
+      _regenerator.default.mark(function _callee2(Component, ctx) {
         var cancelled, cancel, App, props, err;
-        return _regenerator.default.wrap(function _callee6$(_context6) {
+        return _regenerator.default.wrap(function _callee2$(_context2) {
           while (1) {
-            switch (_context6.prev = _context6.next) {
+            switch (_context2.prev = _context2.next) {
               case 0:
                 cancelled = false;
 
@@ -7444,7 +7312,7 @@ function () {
 
                 this.componentLoadCancel = cancel;
                 App = this.components['/_app'].Component;
-                _context6.next = 6;
+                _context2.next = 6;
                 return utils_1.loadGetInitialProps(App, {
                   Component: Component,
                   router: this,
@@ -7452,14 +7320,14 @@ function () {
                 });
 
               case 6:
-                props = _context6.sent;
+                props = _context2.sent;
 
                 if (cancel === this.componentLoadCancel) {
                   this.componentLoadCancel = null;
                 }
 
                 if (!cancelled) {
-                  _context6.next = 12;
+                  _context2.next = 12;
                   break;
                 }
 
@@ -7468,47 +7336,21 @@ function () {
                 throw err;
 
               case 12:
-                return _context6.abrupt("return", props);
+                return _context2.abrupt("return", props);
 
               case 13:
               case "end":
-                return _context6.stop();
+                return _context2.stop();
             }
           }
-        }, _callee6, this);
+        }, _callee2, this);
       }));
 
-      function getInitialProps(_x13, _x14) {
+      function getInitialProps(_x2, _x3) {
         return _getInitialProps.apply(this, arguments);
       }
 
       return getInitialProps;
-    }()
-  }, {
-    key: "fetchRoute",
-    value: function () {
-      var _fetchRoute = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee7(route) {
-        return _regenerator.default.wrap(function _callee7$(_context7) {
-          while (1) {
-            switch (_context7.prev = _context7.next) {
-              case 0:
-                return _context7.abrupt("return", this.pageLoader.loadPage(route));
-
-              case 1:
-              case "end":
-                return _context7.stop();
-            }
-          }
-        }, _callee7, this);
-      }));
-
-      function fetchRoute(_x15) {
-        return _fetchRoute.apply(this, arguments);
-      }
-
-      return fetchRoute;
     }()
   }, {
     key: "abortComponentLoad",
@@ -7532,11 +7374,11 @@ function () {
   }, {
     key: "subscribe",
     value: function subscribe(fn) {
-      var _this2 = this;
+      var _this6 = this;
 
       this.subscriptions.add(fn);
       return function () {
-        return _this2.subscriptions.delete(fn);
+        return _this6.subscriptions.delete(fn);
       };
     }
   }], [{
@@ -7544,31 +7386,21 @@ function () {
     value: function _rewriteUrlForNextExport(url) {
       var _url$split = url.split('#'),
           _url$split2 = (0, _slicedToArray2.default)(_url$split, 2),
-          hash = _url$split2[1];
+          pathname = _url$split2[0],
+          hash = _url$split2[1]; // tslint:disable-next-line
 
-      url = url.replace(/#.*/, '');
 
-      var _url$split3 = url.split('?'),
-          _url$split4 = (0, _slicedToArray2.default)(_url$split3, 2),
-          path = _url$split4[0],
-          qs = _url$split4[1];
+      var _pathname$split = pathname.split('?'),
+          _pathname$split2 = (0, _slicedToArray2.default)(_pathname$split, 2),
+          path = _pathname$split2[0],
+          qs = _pathname$split2[1];
 
-      path = path.replace(/\/$/, '');
-      var newPath = path; // Append a trailing slash if this path does not have an extension
+      path = path.replace(/\/$/, ''); // Append a trailing slash if this path does not have an extension
 
-      if (!/\.[^/]+\/?$/.test(path)) {
-        newPath = "".concat(path, "/");
-      }
-
-      if (qs) {
-        newPath = "".concat(newPath, "?").concat(qs);
-      }
-
-      if (hash) {
-        newPath = "".concat(newPath, "#").concat(hash);
-      }
-
-      return newPath;
+      if (!/\.[^/]+\/?$/.test(path)) path += "/";
+      if (qs) path += '?' + qs;
+      if (hash) path += '#' + hash;
+      return path;
     }
   }]);
   return Router;
@@ -7576,40 +7408,6 @@ function () {
 
 Router.events = mitt_1.default();
 exports.default = Router;
-
-function toRoute(path) {
-  return path.replace(/\/$/, '') || '/';
-}
-
-/***/ }),
-
-/***/ "./node_modules/next-server/dist/lib/router/shallow-equals.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/router/shallow-equals.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function shallowEquals(a, b) {
-  for (var i in a) {
-    if (b[i] !== a[i]) return false;
-  }
-
-  for (var _i in b) {
-    if (b[_i] !== a[_i]) return false;
-  }
-
-  return true;
-}
-
-exports.default = shallowEquals;
 
 /***/ }),
 
@@ -7627,11 +7425,15 @@ var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/help
 
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js"));
 
+var _keys = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js"));
+
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js"));
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+
+var url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
 
 function execOnce(fn) {
   var _this = this;
@@ -7671,11 +7473,7 @@ function getURL() {
 exports.getURL = getURL;
 
 function getDisplayName(Component) {
-  if (typeof Component === 'string') {
-    return Component;
-  }
-
-  return Component.displayName || Component.name || 'Unknown';
+  return typeof Component === 'string' ? Component : Component.displayName || Component.name || 'Unknown';
 }
 
 exports.getDisplayName = getDisplayName;
@@ -7749,19 +7547,36 @@ function _loadGetInitialProps() {
             return _context.stop();
         }
       }
-    }, _callee, this);
+    }, _callee);
   }));
   return _loadGetInitialProps.apply(this, arguments);
 }
 
 exports.loadGetInitialProps = loadGetInitialProps;
+exports.urlObjectKeys = ['auth', 'hash', 'host', 'hostname', 'href', 'path', 'pathname', 'port', 'protocol', 'query', 'search', 'slashes'];
+
+function formatWithValidation(url, options) {
+  if (true) {
+    if (url !== null && typeof url === 'object') {
+      (0, _keys.default)(url).forEach(function (key) {
+        if (exports.urlObjectKeys.indexOf(key) === -1) {
+          console.warn("Unknown key passed via urlObject into url.format: ".concat(key));
+        }
+      });
+    }
+  }
+
+  return url_1.format(url, options);
+}
+
+exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fstef%2FCode%2Fportfolio-next.js%2Fpages%2Findex.js!./":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fstef%2FCode%2Fportfolio-next.js%2Fpages%2Findex.js ***!
-  \**************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fstef%2Fcode%2Fportfolio%2Fpages%2Findex.js!./":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fstef%2Fcode%2Fportfolio%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7795,8 +7610,6 @@ exports.loadGetInitialProps = loadGetInitialProps;
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
-
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js"));
 
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
 
@@ -7834,7 +7647,7 @@ var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/reac
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var router_1 = __importStar(__webpack_require__(/*! next/router */ "./node_modules/next/router.js"));
+var router_1 = __importStar(__webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js"));
 
 var utils_1 = __webpack_require__(/*! next-server/dist/lib/utils */ "./node_modules/next-server/dist/lib/utils.js");
 
@@ -7844,7 +7657,7 @@ function isLocal(href) {
   return !url.host || url.protocol === origin.protocol && url.host === origin.host;
 }
 
-function memoizedFormatUrl(formatUrl) {
+function memoizedFormatUrl(formatFunc) {
   var lastHref = null;
   var lastAs = null;
   var lastResult = null;
@@ -7853,12 +7666,16 @@ function memoizedFormatUrl(formatUrl) {
       return lastResult;
     }
 
-    var result = formatUrl(href, as);
+    var result = formatFunc(href, as);
     lastHref = href;
     lastAs = as;
     lastResult = result;
     return result;
   };
+}
+
+function formatUrl(url) {
+  return url && typeof url === 'object' ? utils_1.formatWithValidation(url) : url;
 }
 
 var Link =
@@ -7875,8 +7692,8 @@ function (_react_1$Component) {
 
     _this.formatUrls = memoizedFormatUrl(function (href, asHref) {
       return {
-        href: href && (0, _typeof2.default)(href) === 'object' ? url_1.format(href) : href,
-        as: asHref && (0, _typeof2.default)(asHref) === 'object' ? url_1.format(asHref) : asHref
+        href: formatUrl(href),
+        as: formatUrl(asHref, true)
       };
     });
 
@@ -7991,8 +7808,10 @@ function (_react_1$Component) {
       // "<page>/index.html" directly.
 
 
-      if (props.href && typeof __NEXT_DATA__ !== 'undefined' && __NEXT_DATA__.nextExport) {
-        props.href = router_1.Router._rewriteUrlForNextExport(props.href);
+      if (true) {
+        if (props.href && typeof __NEXT_DATA__ !== 'undefined' && __NEXT_DATA__.nextExport) {
+          props.href = router_1.Router._rewriteUrlForNextExport(props.href);
+        }
       }
 
       return react_1.default.cloneElement(child, props);
@@ -8043,8 +7862,6 @@ exports.default = Link;
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
-
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js"));
 
 var _construct2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/construct */ "./node_modules/@babel/runtime-corejs2/helpers/construct.js"));
 
@@ -8163,7 +7980,7 @@ function makePublicRouterInstance(router) {
   for (var _i = 0; _i < urlPropertyFields.length; _i++) {
     var property = urlPropertyFields[_i];
 
-    if ((0, _typeof2.default)(router[property]) === 'object') {
+    if (typeof router[property] === 'object') {
       instance[property] = (0, _assign.default)({}, router[property]); // makes sure query is not stateful
 
       continue;
@@ -8221,16 +8038,6 @@ var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/run
 
 var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
 
-var __importStar = void 0 && (void 0).__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
 var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
     "default": mod
@@ -8241,21 +8048,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var hoist_non_react_statics_1 = __importDefault(__webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"));
-
-var utils_1 = __webpack_require__(/*! next-server/dist/lib/utils */ "./node_modules/next-server/dist/lib/utils.js");
-
 function withRouter(ComposedComponent) {
-  var displayName = utils_1.getDisplayName(ComposedComponent);
-
   var WithRouteWrapper =
   /*#__PURE__*/
-  function (_react_1$Component) {
-    (0, _inherits2.default)(WithRouteWrapper, _react_1$Component);
+  function (_react_1$default$Comp) {
+    (0, _inherits2.default)(WithRouteWrapper, _react_1$default$Comp);
 
     function WithRouteWrapper() {
       (0, _classCallCheck2.default)(this, WithRouteWrapper);
@@ -8271,13 +8072,13 @@ function withRouter(ComposedComponent) {
       }
     }]);
     return WithRouteWrapper;
-  }(react_1.Component);
+  }(react_1.default.Component);
 
   WithRouteWrapper.contextTypes = {
     router: prop_types_1.default.object
   };
-  WithRouteWrapper.displayName = "withRouter(".concat(displayName, ")");
-  return hoist_non_react_statics_1.default(WithRouteWrapper, ComposedComponent);
+  WithRouteWrapper.getInitialProps = ComposedComponent.getInitialProps;
+  return WithRouteWrapper;
 }
 
 exports.default = withRouter;
@@ -8292,18 +8093,6 @@ exports.default = withRouter;
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
-
-
-/***/ }),
-
-/***/ "./node_modules/next/router.js":
-/*!*************************************!*\
-  !*** ./node_modules/next/router.js ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules/next/dist/client/router.js")
 
 
 /***/ }),
@@ -8841,12 +8630,12 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_0f4ba55de2d76bf0f90b ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_145b018efb823c7a7fa2 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b */ "dll-reference dll_0f4ba55de2d76bf0f90b"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_145b018efb823c7a7fa2 */ "dll-reference dll_145b018efb823c7a7fa2"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -8891,6 +8680,8 @@ if (!Object.keys) {
 		$frames: true,
 		$innerHeight: true,
 		$innerWidth: true,
+		$onmozfullscreenchange: true,
+		$onmozfullscreenerror: true,
 		$outerHeight: true,
 		$outerWidth: true,
 		$pageXOffset: true,
@@ -9402,29 +9193,18 @@ var animationLookup = {
     keyframes: popmotion__WEBPACK_IMPORTED_MODULE_0__["keyframes"],
     physics: popmotion__WEBPACK_IMPORTED_MODULE_0__["physics"]
 };
-var linear$1 = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].linear,
-    easeIn = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].easeIn,
-    easeOut = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].easeOut,
-    easeInOut = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].easeInOut,
-    circIn = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].circIn,
-    circOut = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].circOut,
-    circInOut = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].circInOut,
-    backIn = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].backIn,
-    backOut = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].backOut,
-    backInOut = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].backInOut,
-    anticipate = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].anticipate;
 var easingLookup = {
-    linear: linear$1,
-    easeIn: easeIn,
-    easeOut: easeOut,
-    easeInOut: easeInOut,
-    circIn: circIn,
-    circOut: circOut,
-    circInOut: circInOut,
-    backIn: backIn,
-    backOut: backOut,
-    backInOut: backInOut,
-    anticipate: anticipate
+    linear: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["linear"],
+    easeIn: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["easeIn"],
+    easeOut: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["easeOut"],
+    easeInOut: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["easeInOut"],
+    circIn: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["circIn"],
+    circOut: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["circOut"],
+    circInOut: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["circInOut"],
+    backIn: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["backIn"],
+    backOut: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["backOut"],
+    backInOut: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["backInOut"],
+    anticipate: _popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["anticipate"]
 };
 
 var auto = {
@@ -9487,7 +9267,7 @@ var getAction = function (v, _a, _b) {
                     y1 = definedEase[1],
                     x2 = definedEase[2],
                     y2 = definedEase[3];
-                ease = popmotion__WEBPACK_IMPORTED_MODULE_0__["easing"].cubicBezier(x1, y1, x2, y2);
+                ease = Object(_popmotion_easing__WEBPACK_IMPORTED_MODULE_1__["cubicBezier"])(x1, y1, x2, y2);
             }
         }
     }
@@ -9532,16 +9312,12 @@ var pose = function (_a) {
                 passiveParent = _c.passiveParent,
                 passiveProps = _c.passiveProps;
             var val = passiveParent ? createPassiveValue(init, passiveParent, passiveProps) : createValue(init);
-            if (addListenerToValue) {
-                val.raw.subscribe(addListenerToValue(key, elementStyler));
-            }
+            val.raw.subscribe(addListenerToValue(key, elementStyler));
             return val;
         },
         convertValue: function (raw, key, _a) {
             var elementStyler = _a.elementStyler;
-            if (addListenerToValue) {
-                raw.subscribe(addListenerToValue(key, elementStyler));
-            }
+            raw.subscribe(addListenerToValue(key, elementStyler));
             return {
                 raw: raw,
                 type: getValueType(raw.get())
@@ -9660,6 +9436,7 @@ var makeUIEventApplicator = function (_a) {
             activeActions.set(moveListener, touchMoveListener);
         }
         var eventStartListener = Object(popmotion__WEBPACK_IMPORTED_MODULE_0__["listen"])(element, startEvents).start(function (startEvent) {
+            poser.unset(endPose);
             poser.set(startPose);
             if (startCallback && config[startCallback]) config[startCallback](startEvent);
             var eventEndListener = Object(popmotion__WEBPACK_IMPORTED_MODULE_0__["listen"])(useDocumentToEnd ? document.documentElement : element, endEvents + (useDocumentToEnd ? ' mouseenter' : '')).start(function (endEvent) {
@@ -9951,8 +9728,8 @@ var createPoseConfig = function (element, _a) {
         var _b = dragPoses(draggable),
             drag = _b.drag,
             dragEnd = _b.dragEnd;
-        poseConfig.drag = __assign({}, poseConfig.drag, drag);
-        poseConfig.dragEnd = __assign({}, poseConfig.dragEnd, dragEnd);
+        poseConfig.drag = __assign({}, drag, poseConfig.drag);
+        poseConfig.dragEnd = __assign({}, dragEnd, poseConfig.dragEnd);
     }
     return poseConfig;
 };
@@ -10773,15 +10550,18 @@ var inertia = function (_a) {
         var isTravellingAwayFromBounds = function (v, currentVelocity) {
             return isLessThanMin(v) && currentVelocity < 0 || isMoreThanMax(v) && currentVelocity > 0;
         };
-        var startAnimation = function (animation, onComplete) {
+        var startAnimation = function (animation, next) {
             activeAnimation && activeAnimation.stop();
             activeAnimation = animation.start({
                 update: function (v) {
                     return current.update(v);
                 },
                 complete: function () {
+                    if (next) {
+                        next();
+                        return;
+                    }
                     complete();
-                    onComplete && onComplete();
                 }
             });
         };
@@ -10796,9 +10576,9 @@ var inertia = function (_a) {
                 startSpring({ from: v, velocity: currentVelocity });
             }
         });
-        if (isOutOfBounds(from) && velocity === 0 || isTravellingAwayFromBounds(from, velocity)) {
+        if (isOutOfBounds(from)) {
             startSpring({ from: from, velocity: velocity });
-        } else {
+        } else if (velocity !== 0) {
             var animation = vectorDecay({
                 from: from,
                 velocity: velocity,
@@ -10811,8 +10591,12 @@ var inertia = function (_a) {
                 var v = current.get();
                 if (isOutOfBounds(v)) {
                     startSpring({ from: v, velocity: current.getVelocity() });
+                } else {
+                    complete();
                 }
             });
+        } else {
+            complete();
         }
         return {
             stop: function () {
@@ -10913,7 +10697,14 @@ var tween = function (props) {
         var process;
         var isActive = false;
         var reverseTween = function () {
-            return playDirection *= -1;
+            if (elapsed > duration) {
+                var remainder = elapsed - duration;
+                elapsed = elapsed - remainder * 2;
+            } else if (elapsed < 0) {
+                var remainder = -1 * elapsed;
+                elapsed = elapsed + remainder * 2;
+            }
+            playDirection *= -1;
         };
         var isTweenComplete = function () {
             var _a;
@@ -10922,7 +10713,7 @@ var tween = function (props) {
             if (isComplete && !loop && !flip && !yoyo) return true;
             var isStepTaken = false;
             if (loop && loopCount < loop) {
-                elapsed = 0;
+                elapsed = duration - elapsed;
                 loopCount++;
                 isStepTaken = true;
             } else if (flip && flipCount < flip) {
@@ -12160,12 +11951,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_0f4ba55de2d76bf0f90b ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_145b018efb823c7a7fa2 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b */ "dll-reference dll_0f4ba55de2d76bf0f90b"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_145b018efb823c7a7fa2 */ "dll-reference dll_145b018efb823c7a7fa2"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -12773,12 +12564,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_0f4ba55de2d76bf0f90b ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_145b018efb823c7a7fa2 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b */ "dll-reference dll_0f4ba55de2d76bf0f90b"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_145b018efb823c7a7fa2 */ "dll-reference dll_145b018efb823c7a7fa2"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -12993,12 +12784,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_0f4ba55de2d76bf0f90b ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_145b018efb823c7a7fa2 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b */ "dll-reference dll_0f4ba55de2d76bf0f90b"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_145b018efb823c7a7fa2 */ "dll-reference dll_145b018efb823c7a7fa2"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -13010,7 +12801,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.8.2
+/** @license React v16.6.1
  * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -13109,6 +12900,7 @@ var lowPriorityWarning$1 = lowPriorityWarning;
 function typeOf(object) {
   if (typeof object === 'object' && object !== null) {
     var $$typeof = object.$$typeof;
+
     switch ($$typeof) {
       case REACT_ELEMENT_TYPE:
         var type = object.type;
@@ -13119,7 +12911,6 @@ function typeOf(object) {
           case REACT_FRAGMENT_TYPE:
           case REACT_PROFILER_TYPE:
           case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
             return type;
           default:
             var $$typeofType = type && type.$$typeof;
@@ -13133,8 +12924,6 @@ function typeOf(object) {
                 return $$typeof;
             }
         }
-      case REACT_LAZY_TYPE:
-      case REACT_MEMO_TYPE:
       case REACT_PORTAL_TYPE:
         return $$typeof;
     }
@@ -13151,12 +12940,9 @@ var ContextProvider = REACT_PROVIDER_TYPE;
 var Element = REACT_ELEMENT_TYPE;
 var ForwardRef = REACT_FORWARD_REF_TYPE;
 var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
 var Profiler = REACT_PROFILER_TYPE;
+var Portal = REACT_PORTAL_TYPE;
 var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
 
 var hasWarnedAboutDeprecatedIsAsyncMode = false;
 
@@ -13188,23 +12974,14 @@ function isForwardRef(object) {
 function isFragment(object) {
   return typeOf(object) === REACT_FRAGMENT_TYPE;
 }
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
 }
 function isPortal(object) {
   return typeOf(object) === REACT_PORTAL_TYPE;
 }
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
 function isStrictMode(object) {
   return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
 }
 
 exports.typeOf = typeOf;
@@ -13215,12 +12992,9 @@ exports.ContextProvider = ContextProvider;
 exports.Element = Element;
 exports.ForwardRef = ForwardRef;
 exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
 exports.Profiler = Profiler;
+exports.Portal = Portal;
 exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
 exports.isValidElementType = isValidElementType;
 exports.isAsyncMode = isAsyncMode;
 exports.isConcurrentMode = isConcurrentMode;
@@ -13229,12 +13003,9 @@ exports.isContextProvider = isContextProvider;
 exports.isElement = isElement;
 exports.isForwardRef = isForwardRef;
 exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
 exports.isProfiler = isProfiler;
+exports.isPortal = isPortal;
 exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
   })();
 }
 
@@ -16341,12 +16112,12 @@ var extendedAnimated = domElements.reduce(function (acc, element) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_0f4ba55de2d76bf0f90b ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_145b018efb823c7a7fa2 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b */ "dll-reference dll_0f4ba55de2d76bf0f90b"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_145b018efb823c7a7fa2 */ "dll-reference dll_145b018efb823c7a7fa2"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -17134,7 +16905,7 @@ if (hadRuntime) {
 /*!*********************************************************************!*\
   !*** ./node_modules/style-value-types/dist/style-value-types.es.js ***!
   \*********************************************************************/
-/*! exports provided: number, scale, alpha, degrees, percent, px, vw, vh, rgba, rgbUnit, hex, hsla, color, complex */
+/*! exports provided: number, scale, alpha, degrees, percent, progressPercentage, px, vw, vh, rgba, rgbUnit, hsla, hex, color, complex */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17144,13 +16915,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "alpha", function() { return alpha; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "degrees", function() { return degrees; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "percent", function() { return percent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "progressPercentage", function() { return progressPercentage; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "px", function() { return px; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "vw", function() { return vw; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "vh", function() { return vh; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rgba", function() { return rgba; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rgbUnit", function() { return rgbUnit; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hex", function() { return hex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hsla", function() { return hsla; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hex", function() { return hex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "color", function() { return color; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "complex", function() { return complex; });
 /*! *****************************************************************************
@@ -17213,6 +16985,7 @@ var percent = createUnitType('%');
 var px = createUnitType('px');
 var vh = createUnitType('vh');
 var vw = createUnitType('vw');
+var progressPercentage = __assign({}, percent, { parse: function (v) { return percent.parse(v) / 100; }, transform: function (v) { return percent.transform(v * 100); } });
 
 var clampRgbUnit = clamp(0, 255);
 var onlyColorRegex = /^(#[0-9a-f]{3}|#(?:[0-9a-f]{2}){2,4}|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))$/i;
@@ -17647,6 +17420,28 @@ var aliasMap = {
 var isCustomTemplate = function (v) {
     return typeof v === 'function';
 };
+var buildTransform = function (state, transform, transformKeys, transformIsDefault, enableHardwareAcceleration) {
+    var transformString = '';
+    var transformHasZ = false;
+    transformKeys.sort(sortTransformProps);
+    var numTransformKeys = transformKeys.length;
+    for (var i = 0; i < numTransformKeys; i++) {
+        var key = transformKeys[i];
+        transformString += (aliasMap[key] || key) + "(" + transform[key] + ") ";
+        transformHasZ = key === 'z' ? true : transformHasZ;
+    }
+    if (!transformHasZ && enableHardwareAcceleration) {
+        transformString += 'translateZ(0)';
+    } else {
+        transformString = transformString.trim();
+    }
+    if (isCustomTemplate(state.transform)) {
+        transformString = state.transform(transform, transformString);
+    } else if (transformIsDefault) {
+        transformString = 'none';
+    }
+    return transformString;
+};
 var buildStyleProperty = function (state, enableHardwareAcceleration, styles, transform, transformOrigin, transformKeys, isDashCase) {
     if (enableHardwareAcceleration === void 0) {
         enableHardwareAcceleration = true;
@@ -17689,28 +17484,8 @@ var buildStyleProperty = function (state, enableHardwareAcceleration, styles, tr
             styles[prefixer(key, isDashCase)] = valueAsType;
         }
     }
-    if (!transformIsDefault) {
-        var transformString = '';
-        if (isCustomTemplate(state.transform)) {
-            transformString = state.transform(transform);
-        } else {
-            var transformHasZ = false;
-            transformKeys.sort(sortTransformProps);
-            var numTransformKeys = transformKeys.length;
-            for (var i = 0; i < numTransformKeys; i++) {
-                var key = transformKeys[i];
-                transformString += (aliasMap[key] || key) + "(" + transform[key] + ") ";
-                transformHasZ = key === 'z' ? true : transformHasZ;
-            }
-            if (!transformHasZ && enableHardwareAcceleration) {
-                transformString += 'translateZ(0)';
-            } else {
-                transformString = transformString.trim();
-            }
-        }
-        styles.transform = transformString;
-    } else if (hasTransform) {
-        styles.transform = 'none';
+    if (hasTransform || typeof state.transform === 'function') {
+        styles.transform = buildTransform(state, transform, transformKeys, transformIsDefault, enableHardwareAcceleration);
     }
     if (hasTransformOrigin) {
         styles.transformOrigin = (transformOrigin.originX || 0) + " " + (transformOrigin.originY || 0) + " " + (transformOrigin.originZ || 0);
@@ -18917,12 +18692,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_0f4ba55de2d76bf0f90b ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_145b018efb823c7a7fa2 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_0f4ba55de2d76bf0f90b */ "dll-reference dll_0f4ba55de2d76bf0f90b"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_145b018efb823c7a7fa2 */ "dll-reference dll_145b018efb823c7a7fa2"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -18991,7 +18766,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/stef/Code/portfolio-next.js/pages/index.js";
+var _jsxFileName = "/Users/stef/code/portfolio/pages/index.js";
 
 
 
@@ -19049,19 +18824,22 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Vertical_Vertical__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        className: _index_css__WEBPACK_IMPORTED_MODULE_13___default.a.social,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_List_List__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        onitemClick: this.handleClick,
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Introduction_Introduction__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        className: _index_css__WEBPACK_IMPORTED_MODULE_13___default.a.introduction,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Introduction_Introduction__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_List_List__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        onitemClick: this.handleClick,
+        className: _index_css__WEBPACK_IMPORTED_MODULE_13___default.a.list,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
@@ -19085,28 +18863,28 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 1:
-/*!******************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fstef%2FCode%2Fportfolio-next.js%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************/
+/***/ 0:
+/*!**********************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fstef%2Fcode%2Fportfolio%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fstef%2FCode%2Fportfolio-next.js%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fstef%2FCode%2Fportfolio-next.js%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fstef%2Fcode%2Fportfolio%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fstef%2Fcode%2Fportfolio%2Fpages%2Findex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_0f4ba55de2d76bf0f90b":
+/***/ "dll-reference dll_145b018efb823c7a7fa2":
 /*!*******************************************!*\
-  !*** external "dll_0f4ba55de2d76bf0f90b" ***!
+  !*** external "dll_145b018efb823c7a7fa2" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_0f4ba55de2d76bf0f90b;
+module.exports = dll_145b018efb823c7a7fa2;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]));;
+},[[0,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

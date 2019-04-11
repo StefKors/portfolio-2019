@@ -34,7 +34,10 @@ img:hover {
   margin: 0 auto;
   padding: 50px;
   background: #f4f2f2;
-  color: #15241A;
+  color: #15241a;
+
+  grid-column: 3;
+  grid-row: 1;
 }
 
 .content___3Cxhw {
@@ -55,6 +58,24 @@ em {
   border: 1px solid;
 }
 
+@media only screen and (max-width: 900px) {
+  .wrapper___2mg3C {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .content___3Cxhw {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper___2mg3C {
+    padding: 10px 20px;
+  }
+}
+
+
 .vertical___39UT7 {
   writing-mode: vertical-rl;
   /* border-right: 1px solid; */
@@ -63,7 +84,10 @@ em {
   top: 0;
   text-align: center;
   margin: 0 auto;
+  grid-column: 1;
 }
+
+
 
 .vertical___39UT7 a {
   padding: 10px 0;
@@ -75,16 +99,61 @@ em {
   transition: 200ms; 
   opacity: 1;
 }
+
+
+@media only screen and (max-width: 900px) {
+  .vertical___39UT7 {
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    writing-mode: horizontal-tb;
+    height: auto;
+    width: 100%;
+    padding: 0 50px;
+    background: #e9e9e9;
+    color: #15241A;
+  }
+  
+  .vertical___39UT7 div {
+    padding: 1rem 0;
+  }
+
+  .vertical___39UT7 a {
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vertical___39UT7 {
+    padding: 0 10px;
+  }
+}
 .wrapper___VZgfh {
   width: 100%;
   padding: 50px;
   text-rendering: optimizeLegibility;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .projectList___34Jt_ {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 900px) {
+  .wrapper___VZgfh {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper___VZgfh {
+    padding: 20px 20px;
+  }
+}
+
 .slide___2alRg {
   position: relative;
   overflow: hidden;
@@ -92,7 +161,7 @@ em {
   width: calc(100%);
   display: grid;
   grid-template-columns: 70% 30%;
-  padding: 1rem 0 3rem;
+  padding: 1rem 0 1rem;
   transition: background 200ms;
   background-color: #ffffff00;
   cursor: pointer;
@@ -113,6 +182,7 @@ em {
   display: block;
   font-weight: 900;
   text-transform: lowercase;
+  margin-top: 1rem;
 }
 
 .date___1yfpV {
@@ -156,6 +226,10 @@ em {
   grid-column-end: span 2;
 }
 
+.description___2Eoh4 span {
+  opacity: .5;
+}
+
 .slide___2alRg:hover .description___2Eoh4 {
   display: block;
 }
@@ -194,6 +268,12 @@ a {
 .page_wrapper___EboO- {
   display: grid;
   grid-template-columns: 5% 47.5% 47.5%;
+}
+
+@media only screen and (max-width: 900px) {
+  .page_wrapper___EboO- {
+    grid-template-columns: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.chunk.css.map*/
