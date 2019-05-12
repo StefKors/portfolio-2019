@@ -1,4 +1,4 @@
-img {
+.afbeelding_wrapper img {
   width: 300px;
   position: absolute;
   pointer-events: all;
@@ -7,7 +7,7 @@ img {
   z-index: 1;
 }
 
-img:hover {
+.afbeelding_wrapper img:hover {
   z-index: 999;
 }
 

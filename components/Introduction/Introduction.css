@@ -28,6 +28,55 @@ em {
   border: 1px solid;
 }
 
+.selected {
+  border-top: 1px solid;
+}
+
+ol {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  display: block;
+  position: relative;
+  height: 100%;
+  border: 1px solid;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+.wrapper li a {
+  display: block;
+  height: 100%;
+  padding: 20px;
+  border: none;
+  transition: cubic-bezier(.165,.84,.44,1) .25s;
+  white-space: normal;
+}
+
+.wrapper li a:hover {
+  background: #15241a;
+  color: white;
+}
+
+.metadata {
+  max-width: 400px;
+}
+
+.metadata h3,
+.metadata p {
+  margin: 0;
+}
+
+
 @media only screen and (max-width: 900px) {
   .wrapper {
     grid-column: 1;
