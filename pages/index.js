@@ -1,4 +1,4 @@
-import Header from '../components/Header/Header'
+import Head from '../components/Head'
 import Animation from "../components/Animation/Animation";
 import Introduction from '../components/Introduction/Introduction'
 import Vertical from '../components/Vertical/Vertical'
@@ -32,7 +32,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className={styles.page}>
-      {/* <Header /> */}
+      <Head title='Stef Kors' url="https://www.stefkors.nl" />
       <div className={styles.page_wrapper}>
         <Vertical className={styles.social} />
         <Introduction className={styles.introduction}/>
