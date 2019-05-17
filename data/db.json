@@ -300,5 +300,16 @@
     "Tech": "Javascript",
     "Images": 0,
     "Date": 2016
+  },
+  {
+    "Number": 0,
+    "Url": "http://echnaton.stefkors.nl",
+    "Project": "Echnaton homepage",
+    "Description": "My first website online. the first I've ever build. 2008. Please inspect source. it's quite entertaining.",
+    "Collaborators": "Kelvin, Robbin en Jim",
+    "Type": "Website",
+    "Tech": "HTML, HTML styles, image buttons, MARQUEE",
+    "Images": 0,
+    "Date": 2008
   }
 ]
