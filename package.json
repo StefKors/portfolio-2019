@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@popmotion/easing": "1.0.1",
+    "@popmotion/easing": "1.0.2",
     "@zeit/next-css": "^1.0.1",
     "next": "latest",
     "next-page-transitions": "1.0.0-alpha.6",
