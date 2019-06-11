@@ -14,7 +14,7 @@
   position: sticky;
   top: 50px;
   height: calc(100vh - 100px);
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .wrapper a {
@@ -58,7 +58,7 @@ li {
   height: 100%;
   padding: 20px;
   border: none;
-  transition: cubic-bezier(.165,.84,.44,1) .25s;
+  transition: cubic-bezier(.165, .84, .44, 1) .25s;
   white-space: normal;
 }
 
