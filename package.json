@@ -11,7 +11,7 @@
     "heroku-postbuild": "npm run build"
   },
   "engines": {
-    "node": "^10"
+    "node": "^8"
   },
   "keywords": [],
   "author": "",
