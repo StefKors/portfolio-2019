@@ -1,5 +1,4 @@
 import Head from '../components/Head'
-import Animation from "../components/Animation/Animation";
 import Introduction from '../components/Introduction/Introduction'
 import Vertical from '../components/Vertical/Vertical'
 import List from '../components/List/List'
@@ -17,18 +16,6 @@ class Index extends React.Component {
 
   componentDidMount() {}
 
-  handleClick = (value) => {
-    console.log('img', value);
-    this.setState({
-      folder: null
-    });
-
-
-    this.setState({
-      folder: value
-    });
-  }
-
   render() {
     return (
       <div className={styles.page}>
@@ -36,13 +23,8 @@ class Index extends React.Component {
       <div className={styles.page_wrapper}>
         <Vertical className={styles.social} />
         <Introduction className={styles.introduction}/>
-        <List onitemClick={this.handleClick} className={styles.list}/>
+        <List className={styles.list}/>
       </div>
-
-
-      <Animation 
-        imageFolder={this.state.folder}
-      />
     </div>
     );
   }

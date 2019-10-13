@@ -46,10 +46,6 @@ class List extends React.Component {
 
   componentDidMount() {}
 
-  handleClick = (value) => {
-    this.props.onitemClick(value); 
-  }
-
   render() {
     return (
       <div className={styles.wrapper}>
@@ -62,7 +58,6 @@ class List extends React.Component {
                 key={index}
                 isOpen={"open"}
                 className={styles.item}
-                onitemClick={this.handleClick}
               />
             </ListItemWrapper>
           ))}

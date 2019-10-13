@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "./ListItem.css";
-import Animation from "../Animation/Animation";
 import posed, { PoseGroup } from "react-pose";
 import { tween, easing } from "popmotion";
 import SplitText from "react-pose-text";
@@ -64,12 +63,6 @@ class ListItem extends React.Component {
       expand: false,
       item: undefined
     };
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    this.props.onitemClick(this.props.data);
   }
 
   getHostName(url) {
@@ -92,35 +85,36 @@ class ListItem extends React.Component {
     return (
       <React.Fragment>
         <PoseGroup>
-          <Slide
-            key={this.props.index}
-            className={styles.slide}
-            onClick={this.handleClick} >
+          <Slide key={this.props.index} className={styles.slide}>
             <div>
               <div className={styles.url}>
                 <span className={styles.date}>{this.props.data.Date}</span>
               </div>
               <Title className={styles.title}>{this.props.data.Project}</Title>
-
             </div>
             <div className={styles.types}>{this.props.data.Tech}</div>
-            <p className={styles.description}>
-              {this.props.data.Description}
-            </p>
+            <p className={styles.description}>{this.props.data.Description}</p>
 
-            {this.props.data.Collaborators &&
+            {this.props.data.Collaborators && (
               <p className={styles.description}>
-                <span>Collaborators:</span> <br /> {this.props.data.Collaborators}
+                <span>Collaborators:</span> <br />{" "}
+                {this.props.data.Collaborators}
               </p>
-            }
+            )}
 
-            {this.props.data.Url &&
+            {this.props.data.Url && (
               <p className={styles.description}>
                 <span>Visit:</span> <br />
                 {/* {this.props.data.Collaborators} */}
-                <a href={this.props.data.Url} target="_blank" rel="noopener noreferrer" >{this.getHostName(this.props.data.Url)}</a>
+                <a
+                  href={this.props.data.Url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {this.getHostName(this.props.data.Url)}
+                </a>
               </p>
-            }
+            )}
           </Slide>
         </PoseGroup>
       </React.Fragment>
