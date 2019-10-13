@@ -75,6 +75,14 @@ const Introduction = props => (
       <div className={styles.selected}>
         <p>Greatest Hits</p>
         <ol>
+        <li>
+            <a href="https://apps.apple.com/us/app/kor-utrecht/id1478256409" target="_blank">
+              <div className={styles.metadata}>
+                <h3>Kunst in openbare ruimte Utrecht</h3>
+                <p>2019</p>
+              </div>
+            </a>
+          </li>
           <li>
             <a href="http://www.borrenstaalenhoef.nl" target="_blank">
               <div className={styles.metadata}>
@@ -87,14 +95,6 @@ const Introduction = props => (
             <a href="https://www.oneacre.online/?id=lisa-stef-J1541248969078" target="_blank">
               <div className={styles.metadata}>
                 <h3>Meaning Seeking Animals</h3>
-                <p>2018</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.oneacre.online/?id=ingrid-stef-O1541251596681" target="_blank">
-              <div className={styles.metadata}>
-                <h3>Poetics and Politics of Erasure</h3>
                 <p>2018</p>
               </div>
             </a>
