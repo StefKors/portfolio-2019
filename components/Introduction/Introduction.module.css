@@ -21,7 +21,7 @@
   border-bottom: 1px solid;
 }
 
-em {
+.wrapper em {
   font-style: normal;
   padding: 6px 3px 3px 3px;
   border-radius: 30px;
@@ -32,7 +32,7 @@ em {
   border-top: 1px solid;
 }
 
-ol {
+.wrapper ol {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -41,7 +41,7 @@ ol {
   position: relative;
 }
 
-li {
+.wrapper li {
   list-style: none;
   display: block;
   position: relative;

@@ -1,25 +1,4 @@
-import styles from "./Vertical.css";
-import posed, { PoseGroup } from "react-pose";
-
-const Title = posed.div({
-  load: {
-    x: -200,
-    opacity: 0,
-    delay: 600,
-    transition: {
-      duration: 500,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  },
-  loaded: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      duration: 500,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  }
-});
+import styles from "./Vertical.module.css";
 
 const Introduction = props => (
   <div className={styles.vertical}>

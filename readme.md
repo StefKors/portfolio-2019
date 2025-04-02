@@ -18,7 +18,3 @@ put this in `./out/now.json`
   "alias": ["www.stefkors.com", "stefkors.com"]
 }
 ```
-
-https://github.com/react-spring/react-spring
-
-test workflow

@@ -1,70 +1,63 @@
-import styles from "./List.css";
+import styles from "./List.module.css";
 import data from "../../data/db.json";
 import ListItem from "../ListItem/ListItem";
-import { Spring } from "react-spring";
-import posed, { PoseGroup } from "react-pose";
+import { motion } from "framer-motion";
 
-const SlideCounter = posed.div({
-  enter: {
-    y: 0,
-    opacity: 1,
-    delay: 900,
-    transition: {
-      duration: 700,
+const SlideCounter = ({ children, ...props }) => (
+  <motion.div
+    initial={{ y: 0, opacity: 0 }}
+    animate={{ y: 0, opacity: 1 }}
+    exit={{ y: 0, opacity: 0 }}
+    transition={{ 
+      duration: 0.7, 
+      delay: 0.9,
       ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  },
-  exit: {
-    y: 0,
-    opacity: 0,
-    transition: {
-      duration: 700,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  }
-});
+    }}
+    {...props}
+  >
+    {children}
+  </motion.div>
+);
 
-const ListWrapper = posed.div({
-  loaded: { x: '0%', staggerChildren: 50 },
-  load: { x: '0%' }
-})
+const ListWrapper = ({ children, ...props }) => (
+  <motion.div
+    initial={{ x: '0%', opacity: 0 }}
+    animate={{ x: '0%', opacity: 1 }}
+    {...props}
+  >
+    {children}
+  </motion.div>
+);
 
-const ListItemWrapper = posed.div({
-  loaded: { opacity: 1 },
-  load: { opacity: 0 }
-})
+const ListItemWrapper = ({ children, index, ...props }) => (
+  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: index * 0.05 }}
+    {...props}
+  >
+    {children}
+  </motion.div>
+);
 
-
-
-class List extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    };
-  }
-
-  componentDidMount() {}
-
-  render() {
-    return (
-      <div className={styles.wrapper}>
-        <ListWrapper className={styles.projectList} initialPose="load" pose="loaded">
-          {data.map((post, index) => (
-            <ListItemWrapper key={index}>
-              <ListItem
-                data={post}
-                index={index}
-                key={index}
-                isOpen={"open"}
-                className={styles.item}
-              />
-            </ListItemWrapper>
-          ))}
-        </ListWrapper>
-      </div>
-    );
-  }
+const List = () => {
+  return (
+    <div className={styles.wrapper}>
+      <ListWrapper className={styles.projectList}>
+        {data.map((post, index) => (
+          <ListItemWrapper key={index} index={index}>
+            <ListItem
+              data={post}
+              index={index}
+              key={index}
+              isOpen={"open"}
+              className={styles.item}
+            />
+          </ListItemWrapper>
+        ))}
+      </ListWrapper>
+    </div>
+  );
 }
 
 export default List;

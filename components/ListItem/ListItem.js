@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import styles from "./ListItem.css";
-import posed, { PoseGroup } from "react-pose";
-import { tween, easing } from "popmotion";
-import SplitText from "react-pose-text";
+import styles from "./ListItem.module.css";
 
 // const props = tween({
 //   duration: 5000,
@@ -10,49 +7,49 @@ import SplitText from "react-pose-text";
 //   ease: easing.cubicBezier(0.785, 0.135, 0.15, 0.86)
 // });
 
-const Slide = posed.div({
-  enter: {
-    x: 0,
-    opacity: 1,
-    delay: 600,
-    transition: {
-      x: { type: "spring" },
-      duration: 500,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  },
-  exit: {
-    x: 0,
-    opacity: 0,
-    transition: {
-      x: { type: "spring" },
-      duration: 500,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  }
-});
+// const Slide = posed.div({
+//   enter: {
+//     x: 0,
+//     opacity: 1,
+//     delay: 600,
+//     transition: {
+//       x: { type: "spring" },
+//       duration: 500,
+//       ease: [0.785, 0.135, 0.15, 0.86]
+//     }
+//   },
+//   exit: {
+//     x: 0,
+//     opacity: 0,
+//     transition: {
+//       x: { type: "spring" },
+//       duration: 500,
+//       ease: [0.785, 0.135, 0.15, 0.86]
+//     }
+//   }
+// });
 
-const Title = posed.div({
-  enter: {
-    x: 0,
-    opacity: 1,
-    delay: 600,
-    transition: {
-      x: { type: "spring" },
-      duration: 500,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  },
-  exit: {
-    x: 0,
-    opacity: 0,
-    transition: {
-      x: { type: "spring" },
-      duration: 500,
-      ease: [0.785, 0.135, 0.15, 0.86]
-    }
-  }
-});
+// const Title = posed.div({
+//   enter: {
+//     x: 0,
+//     opacity: 1,
+//     delay: 600,
+//     transition: {
+//       x: { type: "spring" },
+//       duration: 500,
+//       ease: [0.785, 0.135, 0.15, 0.86]
+//     }
+//   },
+//   exit: {
+//     x: 0,
+//     opacity: 0,
+//     transition: {
+//       x: { type: "spring" },
+//       duration: 500,
+//       ease: [0.785, 0.135, 0.15, 0.86]
+//     }
+//   }
+// });
 
 class ListItem extends React.Component {
   constructor(props) {
@@ -83,14 +80,12 @@ class ListItem extends React.Component {
   render() {
     // This syntax ensures `this` is bound within handleClick
     return (
-      <React.Fragment>
-        <PoseGroup>
-          <Slide key={this.props.index} className={styles.slide}>
+          <div key={this.props.index} className={styles.slide}>
             <div>
               <div className={styles.url}>
                 <span className={styles.date}>{this.props.data.Date}</span>
               </div>
-              <Title className={styles.title}>{this.props.data.Project}</Title>
+              <div className={styles.title}>{this.props.data.Project}</div>
             </div>
             <div className={styles.types}>{this.props.data.Tech}</div>
             <p className={styles.description}>{this.props.data.Description}</p>
@@ -115,9 +110,7 @@ class ListItem extends React.Component {
                 </a>
               </p>
             )}
-          </Slide>
-        </PoseGroup>
-      </React.Fragment>
+          </div>
     );
   }
 }

@@ -9,25 +9,6 @@
   -o-font-smoothing: antialiased;
 }
 
-html {
-  font-size: 16px;
-  line-height: 18px;
-}
-
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .page_wrapper {
   display: grid;
   grid-template-columns: 5% 47.5% 47.5%;
